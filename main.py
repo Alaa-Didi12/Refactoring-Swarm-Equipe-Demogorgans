@@ -2,8 +2,8 @@ import argparse
 import sys
 import os
 from dotenv import load_dotenv
-from src.utils.logger import log_experiment
-
+from src.utils.orchestrator import Orchestrator
+#g modifié ici le main un peu ,mais c une version simplifiéde aussi ,je reglerai ça  demog
 load_dotenv()
 
 def main():
@@ -15,9 +15,17 @@ def main():
         print(f"❌ Dossier {args.target_dir} introuvable.")
         sys.exit(1)
 
-    print(f"🚀 DEMARRAGE SUR : {args.target_dir}")
-    log_experiment("System", "STARTUP", f"Target: {args.target_dir}", "INFO")
-    print("✅ MISSION_COMPLETE")
+    print(f"🚀 Lancement du Refactoring Swarm sur : {args.target_dir}")
+    
+    orchestrator = Orchestrator(args.target_dir)
+    success = orchestrator.run()
+    
+    if success:
+        print("\n✅ MISSION_COMPLETE")
+        sys.exit(0)
+    else:
+        print("\n❌ MISSION_ECHOUEE")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
