@@ -14,12 +14,18 @@ from src.utils.orchestrator import Orchestrator
 load_dotenv()
 
 def main():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(
+        description="Refactoring Swarm - Système multi-agents de refactoring automatique"
+    )
     parser.add_argument("--target_dir", type=str, required=True)
     args = parser.parse_args()
 
     if not os.path.exists(args.target_dir):
         print(f"❌ Dossier {args.target_dir} introuvable.")
+        sys.exit(1)
+
+    if not os.path.isdir(args.target_dir):
+        print(f"❌ ERREUR: '{args.target_dir}' n'est pas un dossier.")
         sys.exit(1)
 
     print(f"🚀 DEMARRAGE SUR : {args.target_dir}")
