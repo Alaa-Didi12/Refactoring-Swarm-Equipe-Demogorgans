@@ -1,4 +1,4 @@
-# src/tools/analysis.py
+﻿# src/tools/analysis.py
 import subprocess
 import json
 import ast
@@ -6,9 +6,20 @@ from pathlib import Path
 from typing import Dict, List, Any, Optional
 import sys
 
-from .security import security_manager
+
 from .file_ops import read_file,list_files
 from src.utils.logger import log_experiment, ActionType
+
+def _get_security_manager():
+    """Récupère le security_manager de manière sécurisée."""
+    # Essaie d'importer depuis le module security
+    try:
+        from .security import security_manager
+        if security_manager is None:
+            raise RuntimeError("SecurityManager non initialisé.")
+        return security_manager
+    except ImportError:
+        raise RuntimeError("Module security non trouvé.")
 
 def run_static_analysis(file_path: str, agent_name: str = "Unknown") -> Dict[str, Any]:
     """
@@ -21,6 +32,7 @@ def run_static_analysis(file_path: str, agent_name: str = "Unknown") -> Dict[str
     Returns:
         Dict avec les résultats de l'analyse
     """
+    security_manager = _get_security_manager()
     if security_manager is None:
         raise RuntimeError("SecurityManager non initialisé.")
     
@@ -33,7 +45,7 @@ def run_static_analysis(file_path: str, agent_name: str = "Unknown") -> Dict[str
         
         # Exécuter pylint
         result = subprocess.run(
-            ["pylint", "--output-format=json", str(secure_path)],
+            [sys.executable, "-m", "pylint", "--output-format=json", str(secure_path)],
             capture_output=True,
             text=True,
             timeout=30

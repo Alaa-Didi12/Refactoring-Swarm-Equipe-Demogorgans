@@ -33,5 +33,2424 @@
             "operation": "system_shutdown"
         },
         "status": "SUCCESS"
+    },
+    {
+        "id": "d1215926-f6c9-412c-b5ac-b3c3cf2ae171",
+        "timestamp": "2026-01-29T15:48:58.957311",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "62a92882-b4e2-4578-9be8-967f58b2a738",
+        "timestamp": "2026-01-29T15:48:58.992254",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "58c63abb-7556-429e-b7c3-9c259bdc31b5",
+        "timestamp": "2026-01-29T16:32:50.485425",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "c2cd49a9-b14b-43ee-944c-9bd6dd549060",
+        "timestamp": "2026-01-29T16:32:50.497278",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "84ccc18a-8c5d-411b-8afa-12b9a4fafbba",
+        "timestamp": "2026-01-29T16:36:05.120201",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "c694a7a5-e790-4b9e-a043-e8db3605cfa0",
+        "timestamp": "2026-01-29T16:36:05.120201",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "c7f38060-2198-4c1c-a521-a4d3673c9e52",
+        "timestamp": "2026-01-29T18:13:47.417026",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "658f0c7b-395f-4246-92f4-4959f28fd36d",
+        "timestamp": "2026-01-29T18:13:47.434629",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "73d7f540-15d1-4ff0-afbd-2212cfa9b6cb",
+        "timestamp": "2026-01-29T18:14:05.047799",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "caf2ede4-5a61-4016-9d1c-9d71c33353b7",
+        "timestamp": "2026-01-29T18:14:05.047799",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "f3614a32-87b3-4215-b723-b7fb12bc84d2",
+        "timestamp": "2026-01-29T18:21:38.109060",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "d1387ffe-5faf-4b3d-8b24-3cc9d9c91517",
+        "timestamp": "2026-01-29T18:21:38.137519",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de ./sandbox\\test.py",
+            "output_response": "[WinError 2] Le fichier spécifié est introuvable",
+            "file": "./sandbox\\test.py",
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "f114fd30-b93e-41e9-9d9b-0d8f21c58a71",
+        "timestamp": "2026-01-29T18:21:38.144908",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "350b730f-ea50-49cd-a378-d87ebaf75b4d",
+        "timestamp": "2026-01-29T18:23:58.092729",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "136b8f8e-5efc-491d-9968-12a5a0e351b0",
+        "timestamp": "2026-01-29T18:23:58.107442",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de ./sandbox\\test.py",
+            "output_response": "[WinError 2] Le fichier spécifié est introuvable",
+            "file": "./sandbox\\test.py",
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "f0f317c7-7b97-42f7-b748-e9b3cf58ca03",
+        "timestamp": "2026-01-29T18:23:58.120295",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "a437bdd2-82c4-488e-88bf-3112a49d891f",
+        "timestamp": "2026-01-29T18:26:16.182739",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "bbcd72fe-ab2a-4f48-8faf-c8aab31527f1",
+        "timestamp": "2026-01-29T18:26:17.034575",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de ./sandbox\\test.py avec pylint",
+            "output_response": "{\n  \"file\": \"./sandbox\\\\test.py\",\n  \"issues\": [\n    {\n      \"type\": \"fatal\",\n      \"module\": \"C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\sandbox\\\\test.py\",\n      \"symbol\": \"fatal\",\n      \"message\": \"No module named sandbox\\\\sandbox\\\\test.py\",\n      \"message-id\": \"F0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 1,\n  \"success\": false,\n  \"command_used\": \"C:\\\\Program Files\\\\Python310\\\\python.exe -m pylint\"\n}",
+            "file": "./sandbox\\test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "4454dd00-21ab-4d1a-8198-b2b1a0979e30",
+        "timestamp": "2026-01-29T18:26:17.037568",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : ./sandbox\\test.py",
+            "output_response": "Erreur : [Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox\\test.py",
+            "operation": "read_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "8c397086-553b-4876-adf8-f8107faf4b6c",
+        "timestamp": "2026-01-29T18:26:17.051866",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour ./sandbox\\test.py",
+            "output_response": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox\\test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "e14aaebd-2079-41b3-a1d9-b83bc0cd3efe",
+        "timestamp": "2026-01-29T18:26:17.066421",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "23c27925-9c63-4609-a90d-9489d51a4bfd",
+        "timestamp": "2026-01-29T18:36:14.764136",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "2a041fa8-d563-48bf-82aa-c7450ff7dc1a",
+        "timestamp": "2026-01-29T18:36:14.764136",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de ./sandbox\\test.py",
+            "output_response": "[WinError 2] Le fichier spécifié est introuvable",
+            "file": "./sandbox\\test.py",
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "07d785cb-c6be-4934-acb8-e122a0ebb574",
+        "timestamp": "2026-01-29T18:36:14.795167",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "9772e0ed-c700-4ab1-b4f1-e096cfc3ef76",
+        "timestamp": "2026-01-29T18:37:46.882612",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "1a33c32a-1416-4638-ac64-55c2c708cd76",
+        "timestamp": "2026-01-29T18:37:47.679941",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de ./sandbox\\test.py avec pylint",
+            "output_response": "{\n  \"file\": \"./sandbox\\\\test.py\",\n  \"issues\": [\n    {\n      \"type\": \"fatal\",\n      \"module\": \"C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\sandbox\\\\test.py\",\n      \"symbol\": \"fatal\",\n      \"message\": \"No module named sandbox\\\\sandbox\\\\test.py\",\n      \"message-id\": \"F0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 1,\n  \"success\": false\n}",
+            "file": "./sandbox\\test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "7c093eec-dfad-4891-a829-78b1a3720f80",
+        "timestamp": "2026-01-29T18:37:47.679941",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : ./sandbox\\test.py",
+            "output_response": "Erreur : [Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox\\test.py",
+            "operation": "read_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "6f6b6dcd-12ba-47ca-9857-913e5a163ee7",
+        "timestamp": "2026-01-29T18:37:47.695562",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour ./sandbox\\test.py",
+            "output_response": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox\\test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "b188d6ba-1092-4478-99c9-b28f81899a12",
+        "timestamp": "2026-01-29T18:37:47.711146",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "49de3a44-9ab7-4096-aa90-679ed5ab1835",
+        "timestamp": "2026-01-29T18:41:43.622182",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "a50f85c3-34c0-4793-823e-66b19380ed52",
+        "timestamp": "2026-01-29T18:41:44.364404",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de ./sandbox\\test.py avec pylint",
+            "output_response": "{\n  \"file\": \"./sandbox\\\\test.py\",\n  \"issues\": [\n    {\n      \"type\": \"fatal\",\n      \"module\": \"C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\sandbox\\\\test.py\",\n      \"symbol\": \"fatal\",\n      \"message\": \"No module named sandbox\\\\sandbox\\\\test.py\",\n      \"message-id\": \"F0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 1,\n  \"success\": false\n}",
+            "file": "./sandbox\\test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "673dba4d-6f26-47d8-ac77-a68d0b40ac1e",
+        "timestamp": "2026-01-29T18:41:44.380020",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : ./sandbox\\test.py",
+            "output_response": "Erreur : [Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox\\test.py",
+            "operation": "read_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "24dfd4a6-59d0-4a18-acec-2984a1eee305",
+        "timestamp": "2026-01-29T18:41:44.380020",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour ./sandbox\\test.py",
+            "output_response": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox\\test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "10565790-ce99-4c9f-b98d-29ff3b5996e4",
+        "timestamp": "2026-01-29T18:41:44.411264",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "673b8d37-3fd3-4444-9a77-2480efbf77c4",
+        "timestamp": "2026-01-29T18:42:02.888529",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "cae21aad-8e5e-450e-921c-ee128569fff3",
+        "timestamp": "2026-01-29T18:42:03.607645",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de ./sandbox\\test.py avec pylint",
+            "output_response": "{\n  \"file\": \"./sandbox\\\\test.py\",\n  \"issues\": [\n    {\n      \"type\": \"fatal\",\n      \"module\": \"C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\sandbox\\\\test.py\",\n      \"symbol\": \"fatal\",\n      \"message\": \"No module named sandbox\\\\sandbox\\\\test.py\",\n      \"message-id\": \"F0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 1,\n  \"success\": false\n}",
+            "file": "./sandbox\\test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "d9f26870-a227-409f-b8f6-377d85a19686",
+        "timestamp": "2026-01-29T18:42:03.607645",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : ./sandbox\\test.py",
+            "output_response": "Erreur : [Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox\\test.py",
+            "operation": "read_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "486b6777-9a80-4955-affd-d54f4de3711e",
+        "timestamp": "2026-01-29T18:42:03.623302",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour ./sandbox\\test.py",
+            "output_response": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox\\test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "5309d96d-fb93-4b0c-841c-319bbfbd933e",
+        "timestamp": "2026-01-29T18:42:03.638891",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "6f02e951-b4a6-4dc5-8cd7-eb1d058e74ba",
+        "timestamp": "2026-01-29T18:42:55.548994",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de ./sandbox/test.py avec pylint",
+            "output_response": "{\n  \"file\": \"./sandbox/test.py\",\n  \"issues\": [\n    {\n      \"type\": \"fatal\",\n      \"module\": \"C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\sandbox\\\\test.py\",\n      \"symbol\": \"fatal\",\n      \"message\": \"No module named sandbox\\\\sandbox\\\\test.py\",\n      \"message-id\": \"F0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 1,\n  \"success\": false\n}",
+            "file": "./sandbox/test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "58e09ad8-82e7-436a-94f4-a69c4ecea14c",
+        "timestamp": "2026-01-29T18:42:55.548994",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : ./sandbox/test.py",
+            "output_response": "Erreur : [Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox/test.py",
+            "operation": "read_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "bb590a20-48f9-4bc0-b1cd-1d5926a52922",
+        "timestamp": "2026-01-29T18:42:55.564649",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour ./sandbox/test.py",
+            "output_response": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox/test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "39791d74-6ab7-4570-99cd-dbe1637ccb81",
+        "timestamp": "2026-01-29T18:45:57.003735",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de ./sandbox/test.py avec pylint",
+            "output_response": "{\n  \"file\": \"./sandbox/test.py\",\n  \"issues\": [\n    {\n      \"type\": \"fatal\",\n      \"module\": \"C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\sandbox\\\\test.py\",\n      \"symbol\": \"fatal\",\n      \"message\": \"No module named sandbox\\\\sandbox\\\\test.py\",\n      \"message-id\": \"F0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 1,\n  \"success\": false\n}",
+            "file": "./sandbox/test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "ad15b7fc-f3c4-42e0-94d4-228a27f4cbb1",
+        "timestamp": "2026-01-29T18:45:57.003735",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : ./sandbox/test.py",
+            "output_response": "Erreur : [Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox/test.py",
+            "operation": "read_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "95a6481e-46e1-4c0d-869e-2981a35f0c74",
+        "timestamp": "2026-01-29T18:45:57.019391",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour ./sandbox/test.py",
+            "output_response": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox/test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "788719ff-e7f9-486d-aff0-76c17e43efd3",
+        "timestamp": "2026-01-29T18:46:52.117803",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "67e126d0-4380-45b0-a9e5-8277015e6722",
+        "timestamp": "2026-01-29T18:46:52.876861",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de ./sandbox\\test.py avec pylint",
+            "output_response": "{\n  \"file\": \"./sandbox\\\\test.py\",\n  \"issues\": [\n    {\n      \"type\": \"fatal\",\n      \"module\": \"C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\sandbox\\\\test.py\",\n      \"symbol\": \"fatal\",\n      \"message\": \"No module named sandbox\\\\sandbox\\\\test.py\",\n      \"message-id\": \"F0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 1,\n  \"success\": false\n}",
+            "file": "./sandbox\\test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "da9f91ad-586c-4865-89fb-f8fc7ed978df",
+        "timestamp": "2026-01-29T18:46:52.880844",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : ./sandbox\\test.py",
+            "output_response": "Erreur : [Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox\\test.py",
+            "operation": "read_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "0ac4ae90-2071-49c7-b2a8-acfd0a9bbc53",
+        "timestamp": "2026-01-29T18:46:52.898720",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour ./sandbox\\test.py",
+            "output_response": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox\\test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "390f1127-23fd-41d2-89da-e511782b7ef1",
+        "timestamp": "2026-01-29T18:46:52.914313",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "b969f9e6-ba93-4688-b272-c72341cf405f",
+        "timestamp": "2026-01-29T18:52:26.548407",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "682639f1-842b-45d0-930f-f0d56d00f7a5",
+        "timestamp": "2026-01-29T18:52:26.577739",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : PARTIAL - Itérations : 3",
+            "operation": "system_shutdown",
+            "final_status": "PARTIAL",
+            "iterations": 3
+        },
+        "status": "PARTIAL"
+    },
+    {
+        "id": "012bb27e-2d33-4794-aa45-0136b60351c5",
+        "timestamp": "2026-01-29T18:53:57.931370",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "7eec9fdc-d348-422f-87a9-32ed8a39862c",
+        "timestamp": "2026-01-29T18:53:57.960627",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : PARTIAL - Itérations : 3",
+            "operation": "system_shutdown",
+            "final_status": "PARTIAL",
+            "iterations": 3
+        },
+        "status": "PARTIAL"
+    },
+    {
+        "id": "c9aeb9b1-7e7e-47e0-86cc-a5363b5f3ad4",
+        "timestamp": "2026-01-29T18:55:18.353010",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "1e94c5cb-d0e9-4872-9f42-fc838c9ebe0b",
+        "timestamp": "2026-01-29T18:55:19.108795",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de ./sandbox\\test.py avec pylint",
+            "output_response": "{\n  \"file\": \"./sandbox\\\\test.py\",\n  \"issues\": [\n    {\n      \"type\": \"fatal\",\n      \"module\": \"C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\sandbox\\\\test.py\",\n      \"symbol\": \"fatal\",\n      \"message\": \"No module named sandbox\\\\sandbox\\\\test.py\",\n      \"message-id\": \"F0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 1,\n  \"success\": false\n}",
+            "file": "./sandbox\\test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "efde4f74-b223-4fdf-9fa0-437656eb87db",
+        "timestamp": "2026-01-29T18:55:19.108795",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : ./sandbox\\test.py",
+            "output_response": "Erreur : [Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox\\test.py",
+            "operation": "read_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "2b7da94c-874c-4148-820c-02356cd78c95",
+        "timestamp": "2026-01-29T18:55:19.124417",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour ./sandbox\\test.py",
+            "output_response": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox\\test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "a0a90573-d4e9-4435-bb60-5ac9bb551cdd",
+        "timestamp": "2026-01-29T18:55:19.140039",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "76bccc8f-6d06-479c-bb7f-a84eb8b765b2",
+        "timestamp": "2026-01-29T18:58:37.382257",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "020611a0-6ba1-43f8-871c-6b33afd7f51c",
+        "timestamp": "2026-01-29T18:58:38.304395",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de ./sandbox\\test.py avec pylint",
+            "output_response": "{\n  \"file\": \"./sandbox\\\\test.py\",\n  \"issues\": [\n    {\n      \"type\": \"fatal\",\n      \"module\": \"C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\sandbox\\\\test.py\",\n      \"symbol\": \"fatal\",\n      \"message\": \"No module named sandbox\\\\sandbox\\\\test.py\",\n      \"message-id\": \"F0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 1,\n  \"success\": false\n}",
+            "file": "./sandbox\\test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "af384c43-a951-4292-9451-62b97da6224f",
+        "timestamp": "2026-01-29T18:58:38.304395",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : ./sandbox\\test.py",
+            "output_response": "Erreur : [Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox\\test.py",
+            "operation": "read_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "1fe1d93c-9d49-406c-be34-b73014b5f9d1",
+        "timestamp": "2026-01-29T18:58:38.320001",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour ./sandbox\\test.py",
+            "output_response": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\sandbox\\\\test.py'",
+            "file": "./sandbox\\test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "11eeefef-71f7-4a0c-9dca-74c9c381281d",
+        "timestamp": "2026-01-29T18:58:38.354764",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "7e9e620d-9491-4f4d-ba3f-2a46e30a26d8",
+        "timestamp": "2026-01-29T19:11:22.810228",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "bf85d1d2-5bcb-4fde-a65e-16ea0522cfd6",
+        "timestamp": "2026-01-29T19:11:23.979829",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de test.py avec pylint",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"issues\": [\n    {\n      \"type\": \"error\",\n      \"module\": \"test\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"syntax-error\",\n      \"message\": \"Parsing failed: 'invalid or missing encoding declaration for 'C:\\\\\\\\Users\\\\\\\\DM\\\\\\\\Desktop\\\\\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\\\\\sandbox\\\\\\\\test.py''\",\n      \"message-id\": \"E0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 2,\n  \"success\": false\n}",
+            "file": "test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "cb4da07c-6721-42e9-b805-bd233b8d64da",
+        "timestamp": "2026-01-29T19:11:23.995450",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Erreur : 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte",
+            "file": "test.py",
+            "operation": "read_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "d08a4336-f92d-4d6a-b68b-33b44282443f",
+        "timestamp": "2026-01-29T19:11:24.026694",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour test.py",
+            "output_response": "'utf-8' codec can't decode byte 0xff in position 0: invalid start byte",
+            "file": "test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "0ee544e1-c654-4a48-9720-92f8de74cadf",
+        "timestamp": "2026-01-29T19:11:24.057936",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "6671815d-ca92-4478-a7d7-662a5c82a532",
+        "timestamp": "2026-01-29T19:15:12.347261",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "9a9755df-a5ea-401d-bef1-955d588e85c7",
+        "timestamp": "2026-01-29T19:15:13.412852",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de test.py avec pylint",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"issues\": [\n    {\n      \"type\": \"error\",\n      \"module\": \"test\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"syntax-error\",\n      \"message\": \"Parsing failed: 'invalid or missing encoding declaration for 'C:\\\\\\\\Users\\\\\\\\DM\\\\\\\\Desktop\\\\\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\\\\\sandbox\\\\\\\\test.py''\",\n      \"message-id\": \"E0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 2,\n  \"success\": false\n}",
+            "file": "test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "d35aec31-eaee-4e53-9786-dae2926b04dc",
+        "timestamp": "2026-01-29T19:15:13.412852",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 654 caractères, Encodage: latin-1",
+            "file": "test.py",
+            "encoding": "latin-1",
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "606e22f5-9c4a-4499-ad95-24904ddc56a2",
+        "timestamp": "2026-01-29T19:15:13.428440",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour test.py",
+            "output_response": "source code string cannot contain null bytes",
+            "file": "test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "cd1023ee-5bbe-41bb-988b-17d61f979260",
+        "timestamp": "2026-01-29T19:15:13.452630",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "ca5416ac-b757-4fd5-8970-50f509862696",
+        "timestamp": "2026-01-29T19:17:03.829283",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "87f6ffd2-81f4-4ebb-9ae2-4f836fb9769e",
+        "timestamp": "2026-01-29T19:17:04.855895",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de test.py avec pylint",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"issues\": [\n    {\n      \"type\": \"error\",\n      \"module\": \"test\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"syntax-error\",\n      \"message\": \"Parsing failed: 'invalid or missing encoding declaration for 'C:\\\\\\\\Users\\\\\\\\DM\\\\\\\\Desktop\\\\\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\\\\\sandbox\\\\\\\\test.py''\",\n      \"message-id\": \"E0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 2,\n  \"success\": false\n}",
+            "file": "test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "63b6ad36-36cd-463b-a644-c9718adbc228",
+        "timestamp": "2026-01-29T19:17:04.871528",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 6 caractères, Encodage: latin-1",
+            "file": "test.py",
+            "encoding": "latin-1",
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "a122fdd3-7f7e-4c2d-94c6-6e8c3b21528f",
+        "timestamp": "2026-01-29T19:17:04.887942",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour test.py",
+            "output_response": "source code string cannot contain null bytes",
+            "file": "test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "785d0441-ad13-4c98-b250-257de4baec78",
+        "timestamp": "2026-01-29T19:17:04.898079",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "078084d2-b3bd-41a7-90f1-129f5b04a8bf",
+        "timestamp": "2026-01-29T19:18:55.760767",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "89feda6c-3e7e-4377-a549-86f1fa9d9a51",
+        "timestamp": "2026-01-29T19:18:56.875856",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de test.py avec pylint",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"issues\": [\n    {\n      \"type\": \"error\",\n      \"module\": \"test\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"syntax-error\",\n      \"message\": \"Parsing failed: 'invalid or missing encoding declaration for 'C:\\\\\\\\Users\\\\\\\\DM\\\\\\\\Desktop\\\\\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\\\\\sandbox\\\\\\\\test.py''\",\n      \"message-id\": \"E0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 2,\n  \"success\": false\n}",
+            "file": "test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "738e2fe4-99ed-4034-9e79-0ee5f595a810",
+        "timestamp": "2026-01-29T19:18:56.875856",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 18 caractères, Encodage: latin-1",
+            "file": "test.py",
+            "encoding": "latin-1",
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "d5d1472f-86b9-4caf-aaa2-64ad481165cc",
+        "timestamp": "2026-01-29T19:18:56.912191",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour test.py",
+            "output_response": "source code string cannot contain null bytes",
+            "file": "test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "f7a42eb8-38f9-40fd-91df-105d35d8cf10",
+        "timestamp": "2026-01-29T19:18:56.926062",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : SUCCESS - Itérations : 0",
+            "operation": "system_shutdown",
+            "final_status": "SUCCESS",
+            "iterations": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "40b90d40-cd20-4004-aed6-320eb858fa1d",
+        "timestamp": "2026-01-29T19:32:06.491999",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "9ebfd567-074a-43d5-a891-fc35b7234fa1",
+        "timestamp": "2026-01-29T19:32:07.632941",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de test.py avec pylint",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"issues\": [\n    {\n      \"type\": \"error\",\n      \"module\": \"test\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"syntax-error\",\n      \"message\": \"Parsing failed: 'invalid or missing encoding declaration for 'C:\\\\\\\\Users\\\\\\\\DM\\\\\\\\Desktop\\\\\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\\\\\sandbox\\\\\\\\test.py''\",\n      \"message-id\": \"E0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 2,\n  \"success\": false\n}",
+            "file": "test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "9bf8978b-2998-4827-8f08-7cc659d8e8eb",
+        "timestamp": "2026-01-29T19:32:07.632941",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 10 caractères",
+            "file": "test.py",
+            "encoding": "latin-1",
+            "null_bytes_removed": 8,
+            "size_bytes": 10,
+            "size_chars": 10,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "9edcde5e-d49b-4aea-a47b-5ee797a3e419",
+        "timestamp": "2026-01-29T19:32:07.699188",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"lines_of_code\": 2,\n  \"non_empty_lines\": 1,\n  \"function_count\": 0,\n  \"class_count\": 0,\n  \"import_count\": 0,\n  \"comment_lines\": 0,\n  \"ast_functions\": 0,\n  \"ast_methods\": 0,\n  \"ast_valid\": true\n}",
+            "file": "test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "f6839ae4-b353-4678-8ff2-6127b07665b7",
+        "timestamp": "2026-01-29T19:32:07.732101",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"has_issues\": true,\n  \"issues_count\": 1,\n  \"pylint_score\": 2,\n  \"success\": false,\n  \"metrics\": {\n    \"file\": \"test.py\",\n    \"lines_of_code\": 2,\n    \"non_empty_lines\": 1,\n    \"function_count\": 0,\n    \"class_count\": 0,\n    \"import_count\": 0,\n    \"comment_lines\": 0,\n    \"ast_functions\": 0,\n    \"ast_methods\": 0,\n    \"ast_valid\": true\n  }\n}",
+            "file": "test.py",
+            "issues_found": 1,
+            "operation": "audit_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "5e54ab30-42a9-4a0b-93a7-b328c470fcf8",
+        "timestamp": "2026-01-29T19:32:07.764785",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 10 caractères",
+            "file": "test.py",
+            "encoding": "latin-1",
+            "null_bytes_removed": 8,
+            "size_bytes": 10,
+            "size_chars": 10,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "bdc6727b-df6e-4fc8-836d-746557f8fee1",
+        "timestamp": "2026-01-29T19:32:07.798034",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Correction du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"changes_made\": false,\n  \"issues_fixed\": 0\n}",
+            "file": "test.py",
+            "changes_made": false,
+            "operation": "fix_code"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "b284ba91-8953-42e9-9787-efdb77fba2be",
+        "timestamp": "2026-01-29T19:32:07.923591",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Exécution des tests : ./sandbox",
+            "output_response": "{\n  \"test_path\": \"./sandbox\",\n  \"return_code\": 1,\n  \"success\": false,\n  \"stdout\": \"\",\n  \"stderr\": \"C:\\\\Program Files\\\\Python310\\\\python.exe: No module named pytest\\n\",\n  \"summary\": \"\",\n  \"passed\": 0,\n  \"failed\": 0,\n  \"skipped\": 0\n}",
+            "test_path": "./sandbox",
+            "passed": 0,
+            "failed": 0,
+            "operation": "run_tests"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "d60df8a5-6172-4b4f-b69f-783f3943249a",
+        "timestamp": "2026-01-29T19:32:07.940904",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Tests du projet ./sandbox",
+            "output_response": "{\n  \"project\": \"./sandbox\",\n  \"tests_passed\": 0,\n  \"tests_failed\": 0,\n  \"skipped\": 0,\n  \"all_passed\": false,\n  \"return_code\": 1\n}",
+            "project": "./sandbox",
+            "tests_passed": 0,
+            "tests_failed": 0,
+            "operation": "test_project"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "990e7483-5579-4e26-8ab0-8eff50f001af",
+        "timestamp": "2026-01-29T19:32:08.972550",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de test.py avec pylint",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"issues\": [\n    {\n      \"type\": \"error\",\n      \"module\": \"test\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"syntax-error\",\n      \"message\": \"Parsing failed: 'invalid or missing encoding declaration for 'C:\\\\\\\\Users\\\\\\\\DM\\\\\\\\Desktop\\\\\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\\\\\sandbox\\\\\\\\test.py''\",\n      \"message-id\": \"E0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 2,\n  \"success\": false\n}",
+            "file": "test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "891e6f13-1345-49fa-bdb8-6af90c50cf88",
+        "timestamp": "2026-01-29T19:32:08.972550",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 10 caractères",
+            "file": "test.py",
+            "encoding": "latin-1",
+            "null_bytes_removed": 8,
+            "size_bytes": 10,
+            "size_chars": 10,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "58f89968-f4ac-4b21-af00-cf6433fafd7e",
+        "timestamp": "2026-01-29T19:32:09.004088",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"lines_of_code\": 2,\n  \"non_empty_lines\": 1,\n  \"function_count\": 0,\n  \"class_count\": 0,\n  \"import_count\": 0,\n  \"comment_lines\": 0,\n  \"ast_functions\": 0,\n  \"ast_methods\": 0,\n  \"ast_valid\": true\n}",
+            "file": "test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "016ce82c-e7f6-47b0-9595-794bf4af9552",
+        "timestamp": "2026-01-29T19:32:09.013853",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"has_issues\": true,\n  \"issues_count\": 1,\n  \"pylint_score\": 2,\n  \"success\": false,\n  \"metrics\": {\n    \"file\": \"test.py\",\n    \"lines_of_code\": 2,\n    \"non_empty_lines\": 1,\n    \"function_count\": 0,\n    \"class_count\": 0,\n    \"import_count\": 0,\n    \"comment_lines\": 0,\n    \"ast_functions\": 0,\n    \"ast_methods\": 0,\n    \"ast_valid\": true\n  }\n}",
+            "file": "test.py",
+            "issues_found": 1,
+            "operation": "audit_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "c8244a75-6de1-4be5-b40e-961bbc9485fb",
+        "timestamp": "2026-01-29T19:32:09.045968",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 10 caractères",
+            "file": "test.py",
+            "encoding": "latin-1",
+            "null_bytes_removed": 8,
+            "size_bytes": 10,
+            "size_chars": 10,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "69273b79-37f6-4aba-9a45-cf7237e92bc5",
+        "timestamp": "2026-01-29T19:32:09.067431",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Correction du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"changes_made\": false,\n  \"issues_fixed\": 0\n}",
+            "file": "test.py",
+            "changes_made": false,
+            "operation": "fix_code"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "9f152a0d-5ab6-44d6-8cdf-bfcf0214c6ae",
+        "timestamp": "2026-01-29T19:32:09.180099",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Exécution des tests : ./sandbox",
+            "output_response": "{\n  \"test_path\": \"./sandbox\",\n  \"return_code\": 1,\n  \"success\": false,\n  \"stdout\": \"\",\n  \"stderr\": \"C:\\\\Program Files\\\\Python310\\\\python.exe: No module named pytest\\n\",\n  \"summary\": \"\",\n  \"passed\": 0,\n  \"failed\": 0,\n  \"skipped\": 0\n}",
+            "test_path": "./sandbox",
+            "passed": 0,
+            "failed": 0,
+            "operation": "run_tests"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "f3156e9d-f0e7-48d6-b811-e3b45f30e81d",
+        "timestamp": "2026-01-29T19:32:09.205555",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Tests du projet ./sandbox",
+            "output_response": "{\n  \"project\": \"./sandbox\",\n  \"tests_passed\": 0,\n  \"tests_failed\": 0,\n  \"skipped\": 0,\n  \"all_passed\": false,\n  \"return_code\": 1\n}",
+            "project": "./sandbox",
+            "tests_passed": 0,
+            "tests_failed": 0,
+            "operation": "test_project"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "2f2b69ae-6dc4-4eac-a023-2f7f06c2cc38",
+        "timestamp": "2026-01-29T19:32:10.241393",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de test.py avec pylint",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"issues\": [\n    {\n      \"type\": \"error\",\n      \"module\": \"test\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"syntax-error\",\n      \"message\": \"Parsing failed: 'invalid or missing encoding declaration for 'C:\\\\\\\\Users\\\\\\\\DM\\\\\\\\Desktop\\\\\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\\\\\sandbox\\\\\\\\test.py''\",\n      \"message-id\": \"E0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 2,\n  \"success\": false\n}",
+            "file": "test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "7a085193-27ca-4386-bea1-2e0bea199d27",
+        "timestamp": "2026-01-29T19:32:10.241393",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 10 caractères",
+            "file": "test.py",
+            "encoding": "latin-1",
+            "null_bytes_removed": 8,
+            "size_bytes": 10,
+            "size_chars": 10,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "32d85705-e309-4f1c-a028-b85197a5d9e3",
+        "timestamp": "2026-01-29T19:32:10.263231",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"lines_of_code\": 2,\n  \"non_empty_lines\": 1,\n  \"function_count\": 0,\n  \"class_count\": 0,\n  \"import_count\": 0,\n  \"comment_lines\": 0,\n  \"ast_functions\": 0,\n  \"ast_methods\": 0,\n  \"ast_valid\": true\n}",
+            "file": "test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "cb7a2d33-0834-4059-b8bf-6da81feb5bc7",
+        "timestamp": "2026-01-29T19:32:10.284825",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"has_issues\": true,\n  \"issues_count\": 1,\n  \"pylint_score\": 2,\n  \"success\": false,\n  \"metrics\": {\n    \"file\": \"test.py\",\n    \"lines_of_code\": 2,\n    \"non_empty_lines\": 1,\n    \"function_count\": 0,\n    \"class_count\": 0,\n    \"import_count\": 0,\n    \"comment_lines\": 0,\n    \"ast_functions\": 0,\n    \"ast_methods\": 0,\n    \"ast_valid\": true\n  }\n}",
+            "file": "test.py",
+            "issues_found": 1,
+            "operation": "audit_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "b55b90a8-5dcc-4c39-bb0e-89abc47af8be",
+        "timestamp": "2026-01-29T19:32:10.314023",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 10 caractères",
+            "file": "test.py",
+            "encoding": "latin-1",
+            "null_bytes_removed": 8,
+            "size_bytes": 10,
+            "size_chars": 10,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "cb49c6b3-8115-4908-b6f0-80854ed12753",
+        "timestamp": "2026-01-29T19:32:10.342636",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Correction du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"changes_made\": false,\n  \"issues_fixed\": 0\n}",
+            "file": "test.py",
+            "changes_made": false,
+            "operation": "fix_code"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "79e2cf5c-14e9-4dc8-ab48-1ef32c6a70ab",
+        "timestamp": "2026-01-29T19:32:10.439888",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Exécution des tests : ./sandbox",
+            "output_response": "{\n  \"test_path\": \"./sandbox\",\n  \"return_code\": 1,\n  \"success\": false,\n  \"stdout\": \"\",\n  \"stderr\": \"C:\\\\Program Files\\\\Python310\\\\python.exe: No module named pytest\\n\",\n  \"summary\": \"\",\n  \"passed\": 0,\n  \"failed\": 0,\n  \"skipped\": 0\n}",
+            "test_path": "./sandbox",
+            "passed": 0,
+            "failed": 0,
+            "operation": "run_tests"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "61fc3690-3036-4d35-8777-5270455e4b25",
+        "timestamp": "2026-01-29T19:32:10.458331",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Tests du projet ./sandbox",
+            "output_response": "{\n  \"project\": \"./sandbox\",\n  \"tests_passed\": 0,\n  \"tests_failed\": 0,\n  \"skipped\": 0,\n  \"all_passed\": false,\n  \"return_code\": 1\n}",
+            "project": "./sandbox",
+            "tests_passed": 0,
+            "tests_failed": 0,
+            "operation": "test_project"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "5caea115-c7a2-4ea5-9d35-a2b46f28e3aa",
+        "timestamp": "2026-01-29T19:32:10.476367",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : PARTIAL - Itérations : 3",
+            "operation": "system_shutdown",
+            "final_status": "PARTIAL",
+            "iterations": 3
+        },
+        "status": "PARTIAL"
+    },
+    {
+        "id": "68f5572c-79f7-4404-9a34-87260a1ebede",
+        "timestamp": "2026-01-29T19:33:33.780701",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "2a7e4fbd-c883-4305-a743-9b9ad170ea8d",
+        "timestamp": "2026-01-29T19:33:34.871030",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de test.py avec pylint",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"issues\": [\n    {\n      \"type\": \"error\",\n      \"module\": \"test\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"syntax-error\",\n      \"message\": \"Parsing failed: 'invalid or missing encoding declaration for 'C:\\\\\\\\Users\\\\\\\\DM\\\\\\\\Desktop\\\\\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\\\\\sandbox\\\\\\\\test.py''\",\n      \"message-id\": \"E0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 2,\n  \"success\": false\n}",
+            "file": "test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "2fcd8335-e1b7-42c3-b8ba-1872395b96a9",
+        "timestamp": "2026-01-29T19:33:34.886648",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 328 caractères",
+            "file": "test.py",
+            "encoding": "latin-1",
+            "null_bytes_removed": 326,
+            "size_bytes": 328,
+            "size_chars": 328,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "0e216dae-9d40-4c11-b1ec-fdfeefc7976c",
+        "timestamp": "2026-01-29T19:33:34.939795",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"lines_of_code\": 16,\n  \"non_empty_lines\": 13,\n  \"function_count\": 3,\n  \"class_count\": 1,\n  \"import_count\": 0,\n  \"comment_lines\": 1,\n  \"ast_valid\": false,\n  \"syntax_error\": \"expected ':' (<unknown>, line 4)\"\n}",
+            "file": "test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "55c22a95-bdec-448e-8509-d2a0bbf1d2db",
+        "timestamp": "2026-01-29T19:33:34.966092",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"has_issues\": true,\n  \"issues_count\": 1,\n  \"pylint_score\": 2,\n  \"success\": false,\n  \"metrics\": {\n    \"file\": \"test.py\",\n    \"lines_of_code\": 16,\n    \"non_empty_lines\": 13,\n    \"function_count\": 3,\n    \"class_count\": 1,\n    \"import_count\": 0,\n    \"comment_lines\": 1,\n    \"ast_valid\": false,\n    \"syntax_error\": \"expected ':' (<unknown>, line 4)\"\n  }\n}",
+            "file": "test.py",
+            "issues_found": 1,
+            "operation": "audit_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "43b6f453-a26d-4f5d-b8f8-a157f60a4040",
+        "timestamp": "2026-01-29T19:33:35.012958",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 328 caractères",
+            "file": "test.py",
+            "encoding": "latin-1",
+            "null_bytes_removed": 326,
+            "size_bytes": 328,
+            "size_chars": 328,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "9c7217d8-3d29-40b1-b793-a9e585a9351e",
+        "timestamp": "2026-01-29T19:33:35.057511",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Correction du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"changes_made\": false,\n  \"issues_fixed\": 0\n}",
+            "file": "test.py",
+            "changes_made": false,
+            "operation": "fix_code"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "2845c2e0-da68-428f-a49e-f88469ce688c",
+        "timestamp": "2026-01-29T19:33:35.198007",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Exécution des tests : ./sandbox",
+            "output_response": "{\n  \"test_path\": \"./sandbox\",\n  \"return_code\": 1,\n  \"success\": false,\n  \"stdout\": \"\",\n  \"stderr\": \"C:\\\\Program Files\\\\Python310\\\\python.exe: No module named pytest\\n\",\n  \"summary\": \"\",\n  \"passed\": 0,\n  \"failed\": 0,\n  \"skipped\": 0\n}",
+            "test_path": "./sandbox",
+            "passed": 0,
+            "failed": 0,
+            "operation": "run_tests"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "2ce0f5d7-87fa-44c6-be44-c7e622faa201",
+        "timestamp": "2026-01-29T19:33:35.231447",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Tests du projet ./sandbox",
+            "output_response": "{\n  \"project\": \"./sandbox\",\n  \"tests_passed\": 0,\n  \"tests_failed\": 0,\n  \"skipped\": 0,\n  \"all_passed\": false,\n  \"return_code\": 1\n}",
+            "project": "./sandbox",
+            "tests_passed": 0,
+            "tests_failed": 0,
+            "operation": "test_project"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "34b2c827-8334-43bc-80cc-33e41ab6c8ae",
+        "timestamp": "2026-01-29T19:33:36.415042",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de test.py avec pylint",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"issues\": [\n    {\n      \"type\": \"error\",\n      \"module\": \"test\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"syntax-error\",\n      \"message\": \"Parsing failed: 'invalid or missing encoding declaration for 'C:\\\\\\\\Users\\\\\\\\DM\\\\\\\\Desktop\\\\\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\\\\\sandbox\\\\\\\\test.py''\",\n      \"message-id\": \"E0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 2,\n  \"success\": false\n}",
+            "file": "test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "6358e8b9-1331-4c8a-8211-a807b94e7a12",
+        "timestamp": "2026-01-29T19:33:36.425017",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 328 caractères",
+            "file": "test.py",
+            "encoding": "latin-1",
+            "null_bytes_removed": 326,
+            "size_bytes": 328,
+            "size_chars": 328,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "f3c21aae-6be7-4b8f-b251-85ac95784b91",
+        "timestamp": "2026-01-29T19:33:36.448712",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"lines_of_code\": 16,\n  \"non_empty_lines\": 13,\n  \"function_count\": 3,\n  \"class_count\": 1,\n  \"import_count\": 0,\n  \"comment_lines\": 1,\n  \"ast_valid\": false,\n  \"syntax_error\": \"expected ':' (<unknown>, line 4)\"\n}",
+            "file": "test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "d90ccd71-dd4c-45d6-bbcd-05afb0f8edf9",
+        "timestamp": "2026-01-29T19:33:36.482105",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"has_issues\": true,\n  \"issues_count\": 1,\n  \"pylint_score\": 2,\n  \"success\": false,\n  \"metrics\": {\n    \"file\": \"test.py\",\n    \"lines_of_code\": 16,\n    \"non_empty_lines\": 13,\n    \"function_count\": 3,\n    \"class_count\": 1,\n    \"import_count\": 0,\n    \"comment_lines\": 1,\n    \"ast_valid\": false,\n    \"syntax_error\": \"expected ':' (<unknown>, line 4)\"\n  }\n}",
+            "file": "test.py",
+            "issues_found": 1,
+            "operation": "audit_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "ce561aa0-038d-4626-a829-15000fb63172",
+        "timestamp": "2026-01-29T19:33:36.532745",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 328 caractères",
+            "file": "test.py",
+            "encoding": "latin-1",
+            "null_bytes_removed": 326,
+            "size_bytes": 328,
+            "size_chars": 328,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "0ee7df4b-e09d-46c2-aa0b-a6e07471dab4",
+        "timestamp": "2026-01-29T19:33:36.565988",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Correction du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"changes_made\": false,\n  \"issues_fixed\": 0\n}",
+            "file": "test.py",
+            "changes_made": false,
+            "operation": "fix_code"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "361b9287-d1e4-472e-bd7c-9443c6a236bb",
+        "timestamp": "2026-01-29T19:33:36.662859",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Exécution des tests : ./sandbox",
+            "output_response": "{\n  \"test_path\": \"./sandbox\",\n  \"return_code\": 1,\n  \"success\": false,\n  \"stdout\": \"\",\n  \"stderr\": \"C:\\\\Program Files\\\\Python310\\\\python.exe: No module named pytest\\n\",\n  \"summary\": \"\",\n  \"passed\": 0,\n  \"failed\": 0,\n  \"skipped\": 0\n}",
+            "test_path": "./sandbox",
+            "passed": 0,
+            "failed": 0,
+            "operation": "run_tests"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "e9e60638-b63f-494e-a83d-a0e46a3c0df9",
+        "timestamp": "2026-01-29T19:33:36.683803",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Tests du projet ./sandbox",
+            "output_response": "{\n  \"project\": \"./sandbox\",\n  \"tests_passed\": 0,\n  \"tests_failed\": 0,\n  \"skipped\": 0,\n  \"all_passed\": false,\n  \"return_code\": 1\n}",
+            "project": "./sandbox",
+            "tests_passed": 0,
+            "tests_failed": 0,
+            "operation": "test_project"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "ec638c4b-5e88-4e67-b743-71707ad8a505",
+        "timestamp": "2026-01-29T19:33:37.988091",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de test.py avec pylint",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"issues\": [\n    {\n      \"type\": \"error\",\n      \"module\": \"test\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"syntax-error\",\n      \"message\": \"Parsing failed: 'invalid or missing encoding declaration for 'C:\\\\\\\\Users\\\\\\\\DM\\\\\\\\Desktop\\\\\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\\\\\sandbox\\\\\\\\test.py''\",\n      \"message-id\": \"E0001\"\n    }\n  ],\n  \"issues_count\": 1,\n  \"pylint_return_code\": 2,\n  \"success\": false\n}",
+            "file": "test.py",
+            "issues_count": 1,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "06126405-b42e-4f5c-94b1-7f1baa8c3428",
+        "timestamp": "2026-01-29T19:33:37.996917",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 328 caractères",
+            "file": "test.py",
+            "encoding": "latin-1",
+            "null_bytes_removed": 326,
+            "size_bytes": 328,
+            "size_chars": 328,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "4a4ea792-6ead-4807-87f1-ca8286a6ab40",
+        "timestamp": "2026-01-29T19:33:38.018611",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"lines_of_code\": 16,\n  \"non_empty_lines\": 13,\n  \"function_count\": 3,\n  \"class_count\": 1,\n  \"import_count\": 0,\n  \"comment_lines\": 1,\n  \"ast_valid\": false,\n  \"syntax_error\": \"expected ':' (<unknown>, line 4)\"\n}",
+            "file": "test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "abf68623-c39c-40d6-92af-6cd4bb6f2d81",
+        "timestamp": "2026-01-29T19:33:38.038901",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"has_issues\": true,\n  \"issues_count\": 1,\n  \"pylint_score\": 2,\n  \"success\": false,\n  \"metrics\": {\n    \"file\": \"test.py\",\n    \"lines_of_code\": 16,\n    \"non_empty_lines\": 13,\n    \"function_count\": 3,\n    \"class_count\": 1,\n    \"import_count\": 0,\n    \"comment_lines\": 1,\n    \"ast_valid\": false,\n    \"syntax_error\": \"expected ':' (<unknown>, line 4)\"\n  }\n}",
+            "file": "test.py",
+            "issues_found": 1,
+            "operation": "audit_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "0fb55632-a54f-4963-983f-14fec8a995e9",
+        "timestamp": "2026-01-29T19:33:38.064052",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 328 caractères",
+            "file": "test.py",
+            "encoding": "latin-1",
+            "null_bytes_removed": 326,
+            "size_bytes": 328,
+            "size_chars": 328,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "be9f0b0e-f87f-4146-b015-b3051b85e488",
+        "timestamp": "2026-01-29T19:33:38.093179",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Correction du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"changes_made\": false,\n  \"issues_fixed\": 0\n}",
+            "file": "test.py",
+            "changes_made": false,
+            "operation": "fix_code"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "af30b5b5-ef5e-4c90-a90b-8e9adb39fbeb",
+        "timestamp": "2026-01-29T19:33:38.189334",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Exécution des tests : ./sandbox",
+            "output_response": "{\n  \"test_path\": \"./sandbox\",\n  \"return_code\": 1,\n  \"success\": false,\n  \"stdout\": \"\",\n  \"stderr\": \"C:\\\\Program Files\\\\Python310\\\\python.exe: No module named pytest\\n\",\n  \"summary\": \"\",\n  \"passed\": 0,\n  \"failed\": 0,\n  \"skipped\": 0\n}",
+            "test_path": "./sandbox",
+            "passed": 0,
+            "failed": 0,
+            "operation": "run_tests"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "0cca494e-29c2-4e86-84da-564c83add3aa",
+        "timestamp": "2026-01-29T19:33:38.196339",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Tests du projet ./sandbox",
+            "output_response": "{\n  \"project\": \"./sandbox\",\n  \"tests_passed\": 0,\n  \"tests_failed\": 0,\n  \"skipped\": 0,\n  \"all_passed\": false,\n  \"return_code\": 1\n}",
+            "project": "./sandbox",
+            "tests_passed": 0,
+            "tests_failed": 0,
+            "operation": "test_project"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "26823c65-7a9f-49d1-99f9-87b466f581fe",
+        "timestamp": "2026-01-29T19:33:38.227584",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : PARTIAL - Itérations : 3",
+            "operation": "system_shutdown",
+            "final_status": "PARTIAL",
+            "iterations": 3
+        },
+        "status": "PARTIAL"
+    },
+    {
+        "id": "c14fd418-9372-4cb8-8b84-64e01666a2b0",
+        "timestamp": "2026-01-29T19:35:51.698811",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "517fe7e5-cc58-4fd4-bf66-2c0f3abb2e1d",
+        "timestamp": "2026-01-29T19:35:52.776067",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de test.py avec pylint",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"issues\": [\n    {\n      \"type\": \"convention\",\n      \"module\": \"test\",\n      \"obj\": \"\",\n      \"line\": 16,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"mixed-line-endings\",\n      \"message\": \"Mixed line endings LF and CRLF\",\n      \"message-id\": \"C0327\"\n    },\n    {\n      \"type\": \"convention\",\n      \"module\": \"test\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"missing-module-docstring\",\n      \"message\": \"Missing module docstring\",\n      \"message-id\": \"C0114\"\n    },\n    {\n      \"type\": \"convention\",\n      \"module\": \"test\",\n      \"obj\": \"multiply\",\n      \"line\": 9,\n      \"column\": 0,\n      \"endLine\": 9,\n      \"endColumn\": 12,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"missing-function-docstring\",\n      \"message\": \"Missing function or method docstring\",\n      \"message-id\": \"C0116\"\n    },\n    {\n      \"type\": \"convention\",\n      \"module\": \"test\",\n      \"obj\": \"Calculator\",\n      \"line\": 12,\n      \"column\": 0,\n      \"endLine\": 12,\n      \"endColumn\": 16,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"missing-class-docstring\",\n      \"message\": \"Missing class docstring\",\n      \"message-id\": \"C0115\"\n    },\n    {\n      \"type\": \"convention\",\n      \"module\": \"test\",\n      \"obj\": \"Calculator.divide\",\n      \"line\": 13,\n      \"column\": 4,\n      \"endLine\": 13,\n      \"endColumn\": 14,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"missing-function-docstring\",\n      \"message\": \"Missing function or method docstring\",\n      \"message-id\": \"C0116\"\n    },\n    {\n      \"type\": \"refactor\",\n      \"module\": \"test\",\n      \"obj\": \"Calculator\",\n      \"line\": 12,\n      \"column\": 0,\n      \"endLine\": 12,\n      \"endColumn\": 16,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"too-few-public-methods\",\n      \"message\": \"Too few public methods (1/2)\",\n      \"message-id\": \"R0903\"\n    }\n  ],\n  \"issues_count\": 6,\n  \"pylint_return_code\": 24,\n  \"success\": false\n}",
+            "file": "test.py",
+            "issues_count": 6,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "b5baf245-fba0-43e4-84c8-d0560d7aae23",
+        "timestamp": "2026-01-29T19:35:52.776067",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 311 caractères",
+            "file": "test.py",
+            "encoding": "utf-8",
+            "null_bytes_removed": 0,
+            "size_bytes": 314,
+            "size_chars": 311,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "1a464691-2756-42cb-a188-aab87684077f",
+        "timestamp": "2026-01-29T19:35:52.802880",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"lines_of_code\": 17,\n  \"non_empty_lines\": 13,\n  \"function_count\": 3,\n  \"class_count\": 1,\n  \"import_count\": 0,\n  \"comment_lines\": 1,\n  \"ast_valid\": false,\n  \"syntax_error\": \"invalid non-printable character U+FEFF (<unknown>, line 1)\"\n}",
+            "file": "test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "cc2d02a5-5666-4242-82aa-532099a386bb",
+        "timestamp": "2026-01-29T19:35:52.842974",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"has_issues\": true,\n  \"issues_count\": 6,\n  \"pylint_score\": 24,\n  \"success\": false,\n  \"metrics\": {\n    \"file\": \"test.py\",\n    \"lines_of_code\": 17,\n    \"non_empty_lines\": 13,\n    \"function_count\": 3,\n    \"class_count\": 1,\n    \"import_count\": 0,\n    \"comment_lines\": 1,\n    \"ast_valid\": false,\n    \"syntax_error\": \"invalid non-printable character U+FEFF (<unknown>, line 1)\"\n  }\n}",
+            "file": "test.py",
+            "issues_found": 6,
+            "operation": "audit_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "c903e643-8179-4c07-a6b9-b326a76f9476",
+        "timestamp": "2026-01-29T19:35:52.922228",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 311 caractères",
+            "file": "test.py",
+            "encoding": "utf-8",
+            "null_bytes_removed": 0,
+            "size_bytes": 314,
+            "size_chars": 311,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "bd3d3802-7569-4c0c-940f-aefbe4a4ccd0",
+        "timestamp": "2026-01-29T19:35:52.968682",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Correction du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"changes_made\": false,\n  \"issues_fixed\": 0\n}",
+            "file": "test.py",
+            "changes_made": false,
+            "operation": "fix_code"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "5bc3592a-073b-4e1b-90e0-69f474f58ca4",
+        "timestamp": "2026-01-29T19:35:53.142243",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Exécution des tests : ./sandbox",
+            "output_response": "{\n  \"test_path\": \"./sandbox\",\n  \"return_code\": 1,\n  \"success\": false,\n  \"stdout\": \"\",\n  \"stderr\": \"C:\\\\Program Files\\\\Python310\\\\python.exe: No module named pytest\\n\",\n  \"summary\": \"\",\n  \"passed\": 0,\n  \"failed\": 0,\n  \"skipped\": 0\n}",
+            "test_path": "./sandbox",
+            "passed": 0,
+            "failed": 0,
+            "operation": "run_tests"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "2de525b5-2270-49f3-9eb9-2901338be8dc",
+        "timestamp": "2026-01-29T19:35:53.177237",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Tests du projet ./sandbox",
+            "output_response": "{\n  \"project\": \"./sandbox\",\n  \"tests_passed\": 0,\n  \"tests_failed\": 0,\n  \"skipped\": 0,\n  \"all_passed\": false,\n  \"return_code\": 1\n}",
+            "project": "./sandbox",
+            "tests_passed": 0,
+            "tests_failed": 0,
+            "operation": "test_project"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "f59d7d5c-830d-449c-9ca9-ee36ac58af15",
+        "timestamp": "2026-01-29T19:35:54.357502",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de test.py avec pylint",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"issues\": [\n    {\n      \"type\": \"convention\",\n      \"module\": \"test\",\n      \"obj\": \"\",\n      \"line\": 16,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"mixed-line-endings\",\n      \"message\": \"Mixed line endings LF and CRLF\",\n      \"message-id\": \"C0327\"\n    },\n    {\n      \"type\": \"convention\",\n      \"module\": \"test\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"missing-module-docstring\",\n      \"message\": \"Missing module docstring\",\n      \"message-id\": \"C0114\"\n    },\n    {\n      \"type\": \"convention\",\n      \"module\": \"test\",\n      \"obj\": \"multiply\",\n      \"line\": 9,\n      \"column\": 0,\n      \"endLine\": 9,\n      \"endColumn\": 12,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"missing-function-docstring\",\n      \"message\": \"Missing function or method docstring\",\n      \"message-id\": \"C0116\"\n    },\n    {\n      \"type\": \"convention\",\n      \"module\": \"test\",\n      \"obj\": \"Calculator\",\n      \"line\": 12,\n      \"column\": 0,\n      \"endLine\": 12,\n      \"endColumn\": 16,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"missing-class-docstring\",\n      \"message\": \"Missing class docstring\",\n      \"message-id\": \"C0115\"\n    },\n    {\n      \"type\": \"convention\",\n      \"module\": \"test\",\n      \"obj\": \"Calculator.divide\",\n      \"line\": 13,\n      \"column\": 4,\n      \"endLine\": 13,\n      \"endColumn\": 14,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"missing-function-docstring\",\n      \"message\": \"Missing function or method docstring\",\n      \"message-id\": \"C0116\"\n    },\n    {\n      \"type\": \"refactor\",\n      \"module\": \"test\",\n      \"obj\": \"Calculator\",\n      \"line\": 12,\n      \"column\": 0,\n      \"endLine\": 12,\n      \"endColumn\": 16,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"too-few-public-methods\",\n      \"message\": \"Too few public methods (1/2)\",\n      \"message-id\": \"R0903\"\n    }\n  ],\n  \"issues_count\": 6,\n  \"pylint_return_code\": 24,\n  \"success\": false\n}",
+            "file": "test.py",
+            "issues_count": 6,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "695cb78b-44d7-4196-a13e-91d60f373f77",
+        "timestamp": "2026-01-29T19:35:54.373090",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 311 caractères",
+            "file": "test.py",
+            "encoding": "utf-8",
+            "null_bytes_removed": 0,
+            "size_bytes": 314,
+            "size_chars": 311,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "a403216a-4c77-4771-a8fd-e8d645eef335",
+        "timestamp": "2026-01-29T19:35:54.401346",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"lines_of_code\": 17,\n  \"non_empty_lines\": 13,\n  \"function_count\": 3,\n  \"class_count\": 1,\n  \"import_count\": 0,\n  \"comment_lines\": 1,\n  \"ast_valid\": false,\n  \"syntax_error\": \"invalid non-printable character U+FEFF (<unknown>, line 1)\"\n}",
+            "file": "test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "c7ca2268-a9cd-497e-8e96-0e0004d64ce7",
+        "timestamp": "2026-01-29T19:35:54.423716",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"has_issues\": true,\n  \"issues_count\": 6,\n  \"pylint_score\": 24,\n  \"success\": false,\n  \"metrics\": {\n    \"file\": \"test.py\",\n    \"lines_of_code\": 17,\n    \"non_empty_lines\": 13,\n    \"function_count\": 3,\n    \"class_count\": 1,\n    \"import_count\": 0,\n    \"comment_lines\": 1,\n    \"ast_valid\": false,\n    \"syntax_error\": \"invalid non-printable character U+FEFF (<unknown>, line 1)\"\n  }\n}",
+            "file": "test.py",
+            "issues_found": 6,
+            "operation": "audit_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "688c8722-0501-4945-bb4b-b4a90e60eac5",
+        "timestamp": "2026-01-29T19:35:54.446387",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 311 caractères",
+            "file": "test.py",
+            "encoding": "utf-8",
+            "null_bytes_removed": 0,
+            "size_bytes": 314,
+            "size_chars": 311,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "b8c8295e-1c49-4e86-8650-eecb1b2a1a13",
+        "timestamp": "2026-01-29T19:35:54.451403",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Correction du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"changes_made\": false,\n  \"issues_fixed\": 0\n}",
+            "file": "test.py",
+            "changes_made": false,
+            "operation": "fix_code"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "5e7301f2-9ccc-47bb-99d4-8aecc1e27e5f",
+        "timestamp": "2026-01-29T19:35:54.584249",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Exécution des tests : ./sandbox",
+            "output_response": "{\n  \"test_path\": \"./sandbox\",\n  \"return_code\": 1,\n  \"success\": false,\n  \"stdout\": \"\",\n  \"stderr\": \"C:\\\\Program Files\\\\Python310\\\\python.exe: No module named pytest\\n\",\n  \"summary\": \"\",\n  \"passed\": 0,\n  \"failed\": 0,\n  \"skipped\": 0\n}",
+            "test_path": "./sandbox",
+            "passed": 0,
+            "failed": 0,
+            "operation": "run_tests"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "3f2ea283-7486-4109-813b-d402799844cb",
+        "timestamp": "2026-01-29T19:35:54.601238",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Tests du projet ./sandbox",
+            "output_response": "{\n  \"project\": \"./sandbox\",\n  \"tests_passed\": 0,\n  \"tests_failed\": 0,\n  \"skipped\": 0,\n  \"all_passed\": false,\n  \"return_code\": 1\n}",
+            "project": "./sandbox",
+            "tests_passed": 0,
+            "tests_failed": 0,
+            "operation": "test_project"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "7e613ba3-eb88-4695-a4f8-91f4158776bb",
+        "timestamp": "2026-01-29T19:35:55.643563",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de test.py avec pylint",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"issues\": [\n    {\n      \"type\": \"convention\",\n      \"module\": \"test\",\n      \"obj\": \"\",\n      \"line\": 16,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"mixed-line-endings\",\n      \"message\": \"Mixed line endings LF and CRLF\",\n      \"message-id\": \"C0327\"\n    },\n    {\n      \"type\": \"convention\",\n      \"module\": \"test\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"missing-module-docstring\",\n      \"message\": \"Missing module docstring\",\n      \"message-id\": \"C0114\"\n    },\n    {\n      \"type\": \"convention\",\n      \"module\": \"test\",\n      \"obj\": \"multiply\",\n      \"line\": 9,\n      \"column\": 0,\n      \"endLine\": 9,\n      \"endColumn\": 12,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"missing-function-docstring\",\n      \"message\": \"Missing function or method docstring\",\n      \"message-id\": \"C0116\"\n    },\n    {\n      \"type\": \"convention\",\n      \"module\": \"test\",\n      \"obj\": \"Calculator\",\n      \"line\": 12,\n      \"column\": 0,\n      \"endLine\": 12,\n      \"endColumn\": 16,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"missing-class-docstring\",\n      \"message\": \"Missing class docstring\",\n      \"message-id\": \"C0115\"\n    },\n    {\n      \"type\": \"convention\",\n      \"module\": \"test\",\n      \"obj\": \"Calculator.divide\",\n      \"line\": 13,\n      \"column\": 4,\n      \"endLine\": 13,\n      \"endColumn\": 14,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"missing-function-docstring\",\n      \"message\": \"Missing function or method docstring\",\n      \"message-id\": \"C0116\"\n    },\n    {\n      \"type\": \"refactor\",\n      \"module\": \"test\",\n      \"obj\": \"Calculator\",\n      \"line\": 12,\n      \"column\": 0,\n      \"endLine\": 12,\n      \"endColumn\": 16,\n      \"path\": \"sandbox\\\\test.py\",\n      \"symbol\": \"too-few-public-methods\",\n      \"message\": \"Too few public methods (1/2)\",\n      \"message-id\": \"R0903\"\n    }\n  ],\n  \"issues_count\": 6,\n  \"pylint_return_code\": 24,\n  \"success\": false\n}",
+            "file": "test.py",
+            "issues_count": 6,
+            "operation": "run_static_analysis"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "b25f5e08-7d66-445a-bd4e-db7510d160dc",
+        "timestamp": "2026-01-29T19:35:55.659148",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 311 caractères",
+            "file": "test.py",
+            "encoding": "utf-8",
+            "null_bytes_removed": 0,
+            "size_bytes": 314,
+            "size_chars": 311,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "ebddf21d-c8a5-4c9e-bfe2-52d4a78dfef4",
+        "timestamp": "2026-01-29T19:35:55.683406",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"lines_of_code\": 17,\n  \"non_empty_lines\": 13,\n  \"function_count\": 3,\n  \"class_count\": 1,\n  \"import_count\": 0,\n  \"comment_lines\": 1,\n  \"ast_valid\": false,\n  \"syntax_error\": \"invalid non-printable character U+FEFF (<unknown>, line 1)\"\n}",
+            "file": "test.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "c9db54ce-59c4-4b4a-b8bf-ba6e82f10193",
+        "timestamp": "2026-01-29T19:35:55.707886",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"has_issues\": true,\n  \"issues_count\": 6,\n  \"pylint_score\": 24,\n  \"success\": false,\n  \"metrics\": {\n    \"file\": \"test.py\",\n    \"lines_of_code\": 17,\n    \"non_empty_lines\": 13,\n    \"function_count\": 3,\n    \"class_count\": 1,\n    \"import_count\": 0,\n    \"comment_lines\": 1,\n    \"ast_valid\": false,\n    \"syntax_error\": \"invalid non-printable character U+FEFF (<unknown>, line 1)\"\n  }\n}",
+            "file": "test.py",
+            "issues_found": 6,
+            "operation": "audit_file"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "070b8f72-91b7-45fc-b1c3-a1e4fab9ecc3",
+        "timestamp": "2026-01-29T19:35:55.731045",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test.py",
+            "output_response": "Fichier lu avec succès. Taille : 311 caractères",
+            "file": "test.py",
+            "encoding": "utf-8",
+            "null_bytes_removed": 0,
+            "size_bytes": 314,
+            "size_chars": 311,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "d477bac9-2b0d-4c86-81e2-dff39d80243a",
+        "timestamp": "2026-01-29T19:35:55.752559",
+        "agent": "Fixer",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Correction du fichier test.py",
+            "output_response": "{\n  \"file\": \"test.py\",\n  \"changes_made\": false,\n  \"issues_fixed\": 0\n}",
+            "file": "test.py",
+            "changes_made": false,
+            "operation": "fix_code"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "06d8aefe-4bc3-4a88-a999-740a6b7482af",
+        "timestamp": "2026-01-29T19:35:55.850071",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Exécution des tests : ./sandbox",
+            "output_response": "{\n  \"test_path\": \"./sandbox\",\n  \"return_code\": 1,\n  \"success\": false,\n  \"stdout\": \"\",\n  \"stderr\": \"C:\\\\Program Files\\\\Python310\\\\python.exe: No module named pytest\\n\",\n  \"summary\": \"\",\n  \"passed\": 0,\n  \"failed\": 0,\n  \"skipped\": 0\n}",
+            "test_path": "./sandbox",
+            "passed": 0,
+            "failed": 0,
+            "operation": "run_tests"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "1f45387f-cea7-4c23-8397-05a165e6dcc6",
+        "timestamp": "2026-01-29T19:35:55.891083",
+        "agent": "Judge",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Tests du projet ./sandbox",
+            "output_response": "{\n  \"project\": \"./sandbox\",\n  \"tests_passed\": 0,\n  \"tests_failed\": 0,\n  \"skipped\": 0,\n  \"all_passed\": false,\n  \"return_code\": 1\n}",
+            "project": "./sandbox",
+            "tests_passed": 0,
+            "tests_failed": 0,
+            "operation": "test_project"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "6ed21541-f135-49a3-9a87-5cc33f23eebb",
+        "timestamp": "2026-01-29T19:35:55.931384",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Status final : PARTIAL - Itérations : 3",
+            "operation": "system_shutdown",
+            "final_status": "PARTIAL",
+            "iterations": 3
+        },
+        "status": "PARTIAL"
     }
 ]

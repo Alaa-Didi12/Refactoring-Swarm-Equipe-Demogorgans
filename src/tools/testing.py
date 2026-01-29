@@ -5,8 +5,19 @@ import sys
 from pathlib import Path
 from typing import Dict, Any, List, Optional
 
-from .security import security_manager
+
 from src.utils.logger import log_experiment, ActionType
+
+def _get_security_manager():
+    """Récupère le security_manager de manière sécurisée."""
+    try:
+        from .security import security_manager
+        if security_manager is None:
+            raise RuntimeError("SecurityManager non initialisé.")
+        return security_manager
+    except ImportError:
+        raise RuntimeError("Module security non trouvé.")
+
 
 def run_tests(test_path: str = ".", agent_name: str = "Unknown", 
               verbose: bool = False) -> Dict[str, Any]:
@@ -21,6 +32,7 @@ def run_tests(test_path: str = ".", agent_name: str = "Unknown",
     Returns:
         Dict avec les résultats des tests
     """
+    security_manager = _get_security_manager()
     if security_manager is None:
         raise RuntimeError("SecurityManager non initialisé.")
     
