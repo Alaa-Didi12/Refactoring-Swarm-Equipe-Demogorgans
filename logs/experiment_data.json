@@ -1,11 +1,37 @@
 [
-  {
-    "id": "9e82e9b0-9b43-4a78-af43-d5d5ef848a2f",
-    "timestamp": "2025-12-26T01:26:41.177789",
-    "agent": "System",
-    "model": "unknown",
-    "action": "STARTUP",
-    "details": "Target: ./sandbox",
-    "status": "INFO"
-  }
+    {
+        "id": "9e82e9b0-9b43-4a78-af43-d5d5ef848a2f",
+        "timestamp": "2025-12-26T01:26:41.177789",
+        "agent": "System",
+        "model": "unknown",
+        "action": "STARTUP",
+        "details": "Target: ./sandbox",
+        "status": "INFO"
+    },
+    {
+        "id": "78fd75ef-9a3e-402e-8246-9a2481b4bc48",
+        "timestamp": "2026-01-29T12:29:43.978640",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible : ./sandbox",
+            "operation": "system_start"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "a3f941d0-cb8c-4c9b-8165-ce662bb8b733",
+        "timestamp": "2026-01-29T12:29:43.997531",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Fin de la session",
+            "output_response": "Mission complétée",
+            "operation": "system_shutdown"
+        },
+        "status": "SUCCESS"
+    }
 ]
