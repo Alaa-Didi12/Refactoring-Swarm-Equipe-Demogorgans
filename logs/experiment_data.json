@@ -1,11 +1,588 @@
 [
-  {
-    "id": "9e82e9b0-9b43-4a78-af43-d5d5ef848a2f",
-    "timestamp": "2025-12-26T01:26:41.177789",
-    "agent": "System",
-    "model": "unknown",
-    "action": "STARTUP",
-    "details": "Target: ./sandbox",
-    "status": "INFO"
-  }
+    {
+        "id": "9e82e9b0-9b43-4a78-af43-d5d5ef848a2f",
+        "timestamp": "2025-12-26T01:26:41.177789",
+        "agent": "System",
+        "model": "unknown",
+        "action": "STARTUP",
+        "details": "Target: ./sandbox",
+        "status": "INFO"
+    },
+    {
+        "id": "113999a2-f637-4201-ab40-f2ae8ee8ae9c",
+        "timestamp": "2026-01-10T22:45:59.925526",
+        "agent": "Test",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Liste des fichiers dans . (extension: None)",
+            "output_response": "0 fichiers trouvés",
+            "directory": ".",
+            "extension_filter": null,
+            "files_count": 0,
+            "operation": "list_files"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "fcf66241-3e8a-465d-8efe-d96e3107bb51",
+        "timestamp": "2026-01-10T22:45:59.929615",
+        "agent": "Test",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Écriture dans le fichier : test_file.py",
+            "output_response": "Fichier écrit avec succès. Taille : 92 caractères",
+            "file": "test_file.py",
+            "operation": "write_file",
+            "changes_made": "new_file",
+            "old_size": 0,
+            "new_size": 92
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "421fcf39-46ed-40be-93c8-f2e66bbc7aa5",
+        "timestamp": "2026-01-10T22:45:59.975188",
+        "agent": "Test",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : test_file.py",
+            "output_response": "Fichier lu avec succès. Taille : 92 caractères",
+            "file": "test_file.py",
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "079dd8cf-d5ca-42f6-bf57-71168a8548fc",
+        "timestamp": "2026-01-10T23:03:27.878961",
+        "agent": "TestCreator",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Écriture dans le fichier : calculator.py",
+            "output_response": "Fichier écrit avec succès. Taille : 199 caractères",
+            "file": "calculator.py",
+            "operation": "write_file",
+            "changes_made": "new_file",
+            "old_size": 0,
+            "new_size": 199
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "c47ff1c4-33e2-46fd-9ee0-a7b7e2762e54",
+        "timestamp": "2026-01-10T23:03:27.892366",
+        "agent": "TestCreator",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Écriture dans le fichier : test_calculator.py",
+            "output_response": "Fichier écrit avec succès. Taille : 314 caractères",
+            "file": "test_calculator.py",
+            "operation": "write_file",
+            "changes_made": "new_file",
+            "old_size": 0,
+            "new_size": 314
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "203ca01e-d190-4882-abd2-77fb4fe4c97b",
+        "timestamp": "2026-01-10T23:03:27.951213",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : calculator.py",
+            "output_response": "Fichier lu avec succès. Taille : 199 caractères",
+            "file": "calculator.py",
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "f36e6bf2-dd8b-4aca-a0d9-6b8c290651ba",
+        "timestamp": "2026-01-10T23:03:27.987043",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour calculator.py",
+            "output_response": "{\n  \"file\": \"calculator.py\",\n  \"lines_of_code\": 14,\n  \"non_empty_lines\": 10,\n  \"function_count\": 3,\n  \"class_count\": 0,\n  \"import_count\": 0,\n  \"comment_lines\": 0,\n  \"ast_functions\": 3,\n  \"ast_methods\": 0,\n  \"ast_valid\": true\n}",
+            "file": "calculator.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "db8981fa-6f56-4af7-95a0-98f9787cddd3",
+        "timestamp": "2026-01-10T23:03:28.019573",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Liste des fichiers dans . (extension: .py)",
+            "output_response": "3 fichiers trouvés",
+            "directory": ".",
+            "extension_filter": ".py",
+            "files_count": 3,
+            "operation": "list_files"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "1757af01-04ee-400b-b894-b396b2341a03",
+        "timestamp": "2026-01-10T23:03:28.046061",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse complète du projet .",
+            "output_response": "{\n  \"project\": \".\",\n  \"total_files\": 3,\n  \"files\": [\n    {\n      \"file\": \"calculator.py\",\n      \"error\": \"SecurityManager non initialis\\u00e9.\",\n      \"issues_count\": 0\n    },\n    {\n      \"file\": \"test_calculator.py\",\n      \"error\": \"SecurityManager non initialis\\u00e9.\",\n      \"issues_count\": 0\n    },\n    {\n      \"file\": \"test_file.py\",\n      \"error\": \"SecurityManager non initialis\\u00e9.\",\n      \"issues_count\": 0\n    }\n  ],\n  \"summary\": {\n    \"total_issues\": 0,\n    \"files_with_issues\": 0\n  }\n}",
+            "project": ".",
+            "files_analyzed": 3,
+            "operation": "analyze_project"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "e25d88b3-bef0-46e8-b673-ff2045e4c179",
+        "timestamp": "2026-01-10T23:04:14.133399",
+        "agent": "TestCreator",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Écriture dans le fichier : calculator.py",
+            "output_response": "Fichier écrit avec succès. Taille : 199 caractères",
+            "file": "calculator.py",
+            "operation": "write_file",
+            "changes_made": "new_file",
+            "old_size": 0,
+            "new_size": 199
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "18ff55e0-3edc-45e0-b5c8-450afec672c0",
+        "timestamp": "2026-01-10T23:04:14.140641",
+        "agent": "TestCreator",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Écriture dans le fichier : test_calculator.py",
+            "output_response": "Fichier écrit avec succès. Taille : 314 caractères",
+            "file": "test_calculator.py",
+            "operation": "write_file",
+            "changes_made": "new_file",
+            "old_size": 0,
+            "new_size": 314
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "8c045b0d-1064-42d5-b883-ac3a6f03f103",
+        "timestamp": "2026-01-10T23:04:14.175638",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : calculator.py",
+            "output_response": "Fichier lu avec succès. Taille : 199 caractères",
+            "file": "calculator.py",
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "c2c6a747-ad9d-42fe-8988-6adeedd381c3",
+        "timestamp": "2026-01-10T23:04:14.201827",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour calculator.py",
+            "output_response": "{\n  \"file\": \"calculator.py\",\n  \"lines_of_code\": 14,\n  \"non_empty_lines\": 10,\n  \"function_count\": 3,\n  \"class_count\": 0,\n  \"import_count\": 0,\n  \"comment_lines\": 0,\n  \"ast_functions\": 3,\n  \"ast_methods\": 0,\n  \"ast_valid\": true\n}",
+            "file": "calculator.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "e9b6491a-7ae2-4657-ade0-9b381f145aaa",
+        "timestamp": "2026-01-10T23:04:14.229201",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Liste des fichiers dans . (extension: .py)",
+            "output_response": "2 fichiers trouvés",
+            "directory": ".",
+            "extension_filter": ".py",
+            "files_count": 2,
+            "operation": "list_files"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "456bbe5d-c489-4ea4-9ba9-27fa942d3e79",
+        "timestamp": "2026-01-10T23:04:14.258689",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse complète du projet .",
+            "output_response": "{\n  \"project\": \".\",\n  \"total_files\": 2,\n  \"files\": [\n    {\n      \"file\": \"calculator.py\",\n      \"error\": \"SecurityManager non initialis\\u00e9.\",\n      \"issues_count\": 0\n    },\n    {\n      \"file\": \"test_calculator.py\",\n      \"error\": \"SecurityManager non initialis\\u00e9.\",\n      \"issues_count\": 0\n    }\n  ],\n  \"summary\": {\n    \"total_issues\": 0,\n    \"files_with_issues\": 0\n  }\n}",
+            "project": ".",
+            "files_analyzed": 2,
+            "operation": "analyze_project"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "9aed73da-b43e-4bf2-99d1-be6f42e497e8",
+        "timestamp": "2026-01-10T23:04:50.609533",
+        "agent": "TestCreator",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Écriture dans le fichier : calculator.py",
+            "output_response": "Fichier écrit avec succès. Taille : 199 caractères",
+            "file": "calculator.py",
+            "operation": "write_file",
+            "changes_made": "new_file",
+            "old_size": 0,
+            "new_size": 199
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "ca2d975b-a993-488e-8543-db8ea4e5e768",
+        "timestamp": "2026-01-10T23:04:50.618618",
+        "agent": "TestCreator",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Écriture dans le fichier : test_calculator.py",
+            "output_response": "Fichier écrit avec succès. Taille : 314 caractères",
+            "file": "test_calculator.py",
+            "operation": "write_file",
+            "changes_made": "new_file",
+            "old_size": 0,
+            "new_size": 314
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "4f9f6606-7ee2-4c23-804e-640f323d1450",
+        "timestamp": "2026-01-10T23:04:50.674650",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : calculator.py",
+            "output_response": "Fichier lu avec succès. Taille : 199 caractères",
+            "file": "calculator.py",
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "20a54a49-cf53-450c-aa36-2c6b5d87d87d",
+        "timestamp": "2026-01-10T23:04:50.712336",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour calculator.py",
+            "output_response": "{\n  \"file\": \"calculator.py\",\n  \"lines_of_code\": 14,\n  \"non_empty_lines\": 10,\n  \"function_count\": 3,\n  \"class_count\": 0,\n  \"import_count\": 0,\n  \"comment_lines\": 0,\n  \"ast_functions\": 3,\n  \"ast_methods\": 0,\n  \"ast_valid\": true\n}",
+            "file": "calculator.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "9c8bb089-b4bd-47cb-958a-eebc65c74c4a",
+        "timestamp": "2026-01-10T23:04:50.751791",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Liste des fichiers dans . (extension: .py)",
+            "output_response": "2 fichiers trouvés",
+            "directory": ".",
+            "extension_filter": ".py",
+            "files_count": 2,
+            "operation": "list_files"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "7a9d5c19-888c-453f-91b5-96e75b878355",
+        "timestamp": "2026-01-10T23:04:50.785314",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse complète du projet .",
+            "output_response": "{\n  \"project\": \".\",\n  \"total_files\": 2,\n  \"files\": [\n    {\n      \"file\": \"calculator.py\",\n      \"error\": \"SecurityManager non initialis\\u00e9.\",\n      \"issues_count\": 0\n    },\n    {\n      \"file\": \"test_calculator.py\",\n      \"error\": \"SecurityManager non initialis\\u00e9.\",\n      \"issues_count\": 0\n    }\n  ],\n  \"summary\": {\n    \"total_issues\": 0,\n    \"files_with_issues\": 0\n  }\n}",
+            "project": ".",
+            "files_analyzed": 2,
+            "operation": "analyze_project"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "349d9448-48d7-4076-b1db-d73a8efa407c",
+        "timestamp": "2026-01-10T23:12:18.785284",
+        "agent": "TestCreator",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Écriture dans le fichier : calculator.py",
+            "output_response": "Fichier écrit avec succès. Taille : 199 caractères",
+            "file": "calculator.py",
+            "operation": "write_file",
+            "changes_made": "new_file",
+            "old_size": 0,
+            "new_size": 199
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "68647424-6770-4d3e-a408-f353fed5dbe3",
+        "timestamp": "2026-01-10T23:12:18.793510",
+        "agent": "TestCreator",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Écriture dans le fichier : test_calculator.py",
+            "output_response": "Fichier écrit avec succès. Taille : 314 caractères",
+            "file": "test_calculator.py",
+            "operation": "write_file",
+            "changes_made": "new_file",
+            "old_size": 0,
+            "new_size": 314
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "d3913e41-3b97-4d8e-9e8a-9c00b2e68f9d",
+        "timestamp": "2026-01-10T23:12:18.834998",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : calculator.py",
+            "output_response": "Fichier lu avec succès. Taille : 199 caractères",
+            "file": "calculator.py",
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "e0b90e9f-7965-4076-91c0-a7297f317bfe",
+        "timestamp": "2026-01-10T23:12:18.869934",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour calculator.py",
+            "output_response": "{\n  \"file\": \"calculator.py\",\n  \"lines_of_code\": 14,\n  \"non_empty_lines\": 10,\n  \"function_count\": 3,\n  \"class_count\": 0,\n  \"import_count\": 0,\n  \"comment_lines\": 0,\n  \"ast_functions\": 3,\n  \"ast_methods\": 0,\n  \"ast_valid\": true\n}",
+            "file": "calculator.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "e6be524c-afb1-418e-bac0-6e76a5489c11",
+        "timestamp": "2026-01-10T23:12:18.906837",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Liste des fichiers dans . (extension: .py)",
+            "output_response": "2 fichiers trouvés",
+            "directory": ".",
+            "extension_filter": ".py",
+            "files_count": 2,
+            "operation": "list_files"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "d352e74a-0a42-42a6-8518-1a5b0b776e19",
+        "timestamp": "2026-01-10T23:12:18.937628",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse complète du projet .",
+            "output_response": "{\n  \"project\": \".\",\n  \"total_files\": 2,\n  \"files\": [\n    {\n      \"file\": \"calculator.py\",\n      \"error\": \"SecurityManager non initialis\\u00e9.\",\n      \"issues_count\": 0\n    },\n    {\n      \"file\": \"test_calculator.py\",\n      \"error\": \"SecurityManager non initialis\\u00e9.\",\n      \"issues_count\": 0\n    }\n  ],\n  \"summary\": {\n    \"total_issues\": 0,\n    \"files_with_issues\": 0\n  }\n}",
+            "project": ".",
+            "files_analyzed": 2,
+            "operation": "analyze_project"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "86f83a9a-40ef-43ae-9316-a0e029189a99",
+        "timestamp": "2026-01-10T23:12:50.161916",
+        "agent": "TestCreator",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Écriture dans le fichier : calculator.py",
+            "output_response": "Fichier écrit avec succès. Taille : 199 caractères",
+            "file": "calculator.py",
+            "operation": "write_file",
+            "changes_made": "new_file",
+            "old_size": 0,
+            "new_size": 199
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "7373596f-932f-4738-8ae8-58690c0750da",
+        "timestamp": "2026-01-10T23:12:50.172941",
+        "agent": "TestCreator",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Écriture dans le fichier : test_calculator.py",
+            "output_response": "Fichier écrit avec succès. Taille : 314 caractères",
+            "file": "test_calculator.py",
+            "operation": "write_file",
+            "changes_made": "new_file",
+            "old_size": 0,
+            "new_size": 314
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "ff4fe015-3d97-4399-99d7-4e607dd20912",
+        "timestamp": "2026-01-10T23:12:50.208932",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : calculator.py",
+            "output_response": "Fichier lu avec succès. Taille : 199 caractères",
+            "file": "calculator.py",
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "3c536c7a-814c-4975-82e4-14ff7865b5a7",
+        "timestamp": "2026-01-10T23:12:50.238682",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour calculator.py",
+            "output_response": "{\n  \"file\": \"calculator.py\",\n  \"lines_of_code\": 14,\n  \"non_empty_lines\": 10,\n  \"function_count\": 3,\n  \"class_count\": 0,\n  \"import_count\": 0,\n  \"comment_lines\": 0,\n  \"ast_functions\": 3,\n  \"ast_methods\": 0,\n  \"ast_valid\": true\n}",
+            "file": "calculator.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "c1248447-4303-4965-bf39-6cdfa666397c",
+        "timestamp": "2026-01-10T23:12:50.269927",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Liste des fichiers dans . (extension: .py)",
+            "output_response": "2 fichiers trouvés",
+            "directory": ".",
+            "extension_filter": ".py",
+            "files_count": 2,
+            "operation": "list_files"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "0c875523-ad09-4828-8d9a-a3a3a3c82fb7",
+        "timestamp": "2026-01-10T23:12:50.295667",
+        "agent": "AuditorTest",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse complète du projet .",
+            "output_response": "{\n  \"project\": \".\",\n  \"total_files\": 2,\n  \"files\": [\n    {\n      \"file\": \"calculator.py\",\n      \"error\": \"SecurityManager non initialis\\u00e9.\",\n      \"issues_count\": 0\n    },\n    {\n      \"file\": \"test_calculator.py\",\n      \"error\": \"SecurityManager non initialis\\u00e9.\",\n      \"issues_count\": 0\n    }\n  ],\n  \"summary\": {\n    \"total_issues\": 0,\n    \"files_with_issues\": 0\n  }\n}",
+            "project": ".",
+            "files_analyzed": 2,
+            "operation": "analyze_project"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "33d5eb51-bcf0-40a8-ae24-3e62ff4c9f89",
+        "timestamp": "2026-01-10T23:17:14.887929",
+        "agent": "Debug",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Écriture dans le fichier : tool_test.txt",
+            "output_response": "Fichier écrit avec succès. Taille : 19 caractères",
+            "file": "tool_test.txt",
+            "operation": "write_file",
+            "changes_made": "new_file",
+            "old_size": 0,
+            "new_size": 19
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "c24a0d5e-2bba-462f-ac68-77e020e12e93",
+        "timestamp": "2026-01-10T23:20:04.132261",
+        "agent": "Test",
+        "model": "tool",
+        "action": "FIX",
+        "details": {
+            "input_prompt": "Écriture dans le fichier : test_analysis.py",
+            "output_response": "Fichier écrit avec succès. Taille : 66 caractères",
+            "file": "test_analysis.py",
+            "operation": "write_file",
+            "changes_made": "new_file",
+            "old_size": 0,
+            "new_size": 66
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "e887e258-e1b1-4916-bf2e-35bef8c3723d",
+        "timestamp": "2026-01-10T23:20:04.139729",
+        "agent": "Test",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Liste des fichiers dans . (extension: .py)",
+            "output_response": "1 fichiers trouvés",
+            "directory": ".",
+            "extension_filter": ".py",
+            "files_count": 1,
+            "operation": "list_files"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "9b5edaac-eec4-4fd4-b822-02f4f13afb0f",
+        "timestamp": "2026-01-10T23:20:04.161243",
+        "agent": "Test",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse complète du projet .",
+            "output_response": "{\n  \"project\": \".\",\n  \"total_files\": 1,\n  \"files\": [\n    {\n      \"file\": \"test_analysis.py\",\n      \"error\": \"SecurityManager non initialis\\u00e9.\",\n      \"issues_count\": 0\n    }\n  ],\n  \"summary\": {\n    \"total_issues\": 0,\n    \"files_with_issues\": 0\n  }\n}",
+            "project": ".",
+            "files_analyzed": 1,
+            "operation": "analyze_project"
+        },
+        "status": "SUCCESS"
+    }
 ]
