@@ -1,0 +1,12 @@
+Analyse le code Python suivant :
+
+{code}
+
+Problèmes détectés par pylint :
+{pylint_issues}
+
+Donne ton analyse sous forme JSON avec :
+- problèmes : liste des problèmes
+- gravité : faible/moyenne/élevée pour chaque
+- suggestions : corrections proposées
+- score_qualité : de 0 à 10

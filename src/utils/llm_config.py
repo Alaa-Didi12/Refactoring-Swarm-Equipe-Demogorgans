@@ -13,7 +13,7 @@ load_dotenv()
 class LLMConfig:
     """Configuration and interface for LLM interactions."""
     
-    def __init__(self, model_name: str = "gemini-2.0-flash-exp"):
+    def __init__(self, model_name: str = "models/gemini-2.5-flash"):
         """
         Initialize LLM configuration.
         
