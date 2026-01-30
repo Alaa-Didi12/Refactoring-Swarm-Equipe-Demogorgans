@@ -2452,5 +2452,378 @@
             "iterations": 3
         },
         "status": "PARTIAL"
+    },
+    {
+        "id": "32d5b210-b29d-4f19-ac74-47dcf3158a32",
+        "timestamp": "2026-01-29T20:43:11.226950",
+        "agent": "Orchestrator",
+        "model": "gemini-2.0-flash",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible: C:\\Users\\DM\\Desktop\\Refactoring-Swarm-Equipe-Demogorgans\\sandbox\\test_auto\nItérations max: 3\nMode verbeux: False",
+            "target_dir": "C:\\Users\\DM\\Desktop\\Refactoring-Swarm-Equipe-Demogorgans\\sandbox\\test_auto",
+            "max_iterations": 3,
+            "verbose_mode": false,
+            "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+            "platform": "win32"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "734a436c-5881-4905-b6f1-25fe46816070",
+        "timestamp": "2026-01-29T20:43:11.242191",
+        "agent": "Orchestrator",
+        "model": "gemini-2.0-flash",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du Refactoring Swarm sur C:\\Users\\DM\\Desktop\\Refactoring-Swarm-Equipe-Demogorgans\\sandbox\\test_auto",
+            "output_response": "Orchestrateur initialisé avec 3 itérations max",
+            "target_dir": "C:\\Users\\DM\\Desktop\\Refactoring-Swarm-Equipe-Demogorgans\\sandbox\\test_auto",
+            "max_iterations": 3
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "02cc223e-9db6-45da-aaa7-2dfb60e4ed90",
+        "timestamp": "2026-01-29T20:43:13.576616",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de code_problemes.py avec pylint",
+            "output_response": "{\n  \"file\": \"code_problemes.py\",\n  \"issues\": [\n    {\n      \"type\": \"convention\",\n      \"module\": \"code_problemes\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test_auto\\\\code_problemes.py\",\n      \"symbol\": \"missing-module-docstring\",\n      \"message\": \"Missing module docstring\",\n      \"message-id\": \"C0114\"\n    },\n    {\n      \"type\": \"convention\",\n      \"module\": \"code_problemes\",\n      \"obj\": \"calcul_moyenne\",\n      \"line\": 3,\n      \"column\": 0,\n      \"endLine\": 3,\n      \"endColumn\": 18,\n      \"path\": \"sandbox\\\\test_auto\\\\code_problemes.py\",\n      \"symbol\": \"missing-function-docstring\",\n      \"message\": \"Missing function or method docstring\",\n      \"message-id\": \"C0116\"\n    },\n    {\n      \"type\": \"convention\",\n      \"module\": \"code_problemes\",\n      \"obj\": \"afficher_message\",\n      \"line\": 10,\n      \"column\": 0,\n      \"endLine\": 10,\n      \"endColumn\": 20,\n      \"path\": \"sandbox\\\\test_auto\\\\code_problemes.py\",\n      \"symbol\": \"missing-function-docstring\",\n      \"message\": \"Missing function or method docstring\",\n      \"message-id\": \"C0116\"\n    }\n  ],\n  \"issues_count\": 3,\n  \"pylint_return_code\": 16,\n  \"success\": true\n}",
+            "file": "code_problemes.py",
+            "issues_count": 3,
+            "operation": "run_static_analysis"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "60f09794-a1e7-4720-a2f3-f80be9b1c384",
+        "timestamp": "2026-01-29T20:43:13.576616",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : code_problemes.py",
+            "output_response": "Fichier lu avec succès. Taille : 381 caractères",
+            "file": "code_problemes.py",
+            "encoding": "utf-8",
+            "null_bytes_removed": 0,
+            "size_bytes": 384,
+            "size_chars": 381,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "f18e2d27-3955-44b0-b032-847a5878aa46",
+        "timestamp": "2026-01-29T20:43:13.643848",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour code_problemes.py",
+            "output_response": "{\n  \"file\": \"code_problemes.py\",\n  \"lines_of_code\": 13,\n  \"non_empty_lines\": 10,\n  \"function_count\": 2,\n  \"class_count\": 0,\n  \"import_count\": 0,\n  \"comment_lines\": 4,\n  \"ast_functions\": 2,\n  \"ast_methods\": 0,\n  \"ast_valid\": true\n}",
+            "file": "code_problemes.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "3c6dc7d2-5a8e-4e86-afeb-176fc8b8e764",
+        "timestamp": "2026-01-29T20:43:13.675296",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse du fichier code_problemes.py",
+            "output_response": "{\n  \"file\": \"code_problemes.py\",\n  \"has_issues\": true,\n  \"issues_count\": 3,\n  \"pylint_score\": 16,\n  \"success\": true,\n  \"metrics\": {\n    \"file\": \"code_problemes.py\",\n    \"lines_of_code\": 13,\n    \"non_empty_lines\": 10,\n    \"function_count\": 2,\n    \"class_count\": 0,\n    \"import_count\": 0,\n    \"comment_lines\": 4,\n    \"ast_functions\": 2,\n    \"ast_methods\": 0,\n    \"ast_valid\": true\n  }\n}",
+            "file": "code_problemes.py",
+            "issues_found": 3,
+            "operation": "audit_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "af1c7864-ba56-4568-9e58-8b9f50e52f51",
+        "timestamp": "2026-01-29T20:43:13.708707",
+        "agent": "MessageBus",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Message de Auditor à Fixer",
+            "output_response": "{\n  \"sender\": \"Auditor\",\n  \"receiver\": \"Fixer\",\n  \"type\": \"audit_report\",\n  \"content\": {\n    \"project\": \"C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\test_auto\",\n    \"files_audited\": 1,\n    \"files_with_issues\": 1,\n    \"total_issues\": 3,\n    \"all_files_valid\": true,\n    \"detailed_results\": [\n      {\n        \"file\": \"code_problemes.py\",\n        \"has_issues\": true,\n        \"issues_count\": 3,\n        \"pylint_score\": 16,\n        \"success\": true,\n        \"metrics\": {\n          \"file\": \"code_problemes.py\",\n          \"lines_of_code\": 13,\n          \"non_empty_lines\": 10,\n          \"function_count\": 2,\n          \"class_count\": 0,\n          \"import_count\": 0,\n          \"comment_lines\": 4,\n          \"ast_functions\": 2,\n          \"ast_methods\": 0,\n          \"ast_valid\": true\n        }\n      }\n    ]\n  },\n  \"timestamp\": 1769715793.708707,\n  \"iteration\": 1\n}",
+            "message_type": "audit_report",
+            "iteration": 1
+        },
+        "status": "INFO"
+    },
+    {
+        "id": "ae40c1e2-0f00-4863-9999-ff0b7ccb1860",
+        "timestamp": "2026-01-29T20:43:13.741997",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "DEBUG",
+        "details": {
+            "input_prompt": "Erreur dans _run_initial_audit()",
+            "output_response": "name 'json' is not defined"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "d93b1afc-d6ee-4401-9454-f886f55eb291",
+        "timestamp": "2026-01-29T20:44:50.901663",
+        "agent": "Orchestrator",
+        "model": "gemini-2.0-flash",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du système Refactoring Swarm",
+            "output_response": "Dossier cible: C:\\Users\\DM\\Desktop\\Refactoring-Swarm-Equipe-Demogorgans\\sandbox\\test_auto\nItérations max: 3\nMode verbeux: False",
+            "target_dir": "C:\\Users\\DM\\Desktop\\Refactoring-Swarm-Equipe-Demogorgans\\sandbox\\test_auto",
+            "max_iterations": 3,
+            "verbose_mode": false,
+            "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+            "platform": "win32"
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "8542120c-a751-4aa6-a9fa-4d8e7fb85195",
+        "timestamp": "2026-01-29T20:44:50.915625",
+        "agent": "Orchestrator",
+        "model": "gemini-2.0-flash",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Démarrage du Refactoring Swarm sur C:\\Users\\DM\\Desktop\\Refactoring-Swarm-Equipe-Demogorgans\\sandbox\\test_auto",
+            "output_response": "Orchestrateur initialisé avec 3 itérations max",
+            "target_dir": "C:\\Users\\DM\\Desktop\\Refactoring-Swarm-Equipe-Demogorgans\\sandbox\\test_auto",
+            "max_iterations": 3
+        },
+        "status": "STARTED"
+    },
+    {
+        "id": "44bc63a7-e3ea-427e-97df-5f18d54284ab",
+        "timestamp": "2026-01-29T20:44:53.036965",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse statique de code_problemes.py avec pylint",
+            "output_response": "{\n  \"file\": \"code_problemes.py\",\n  \"issues\": [\n    {\n      \"type\": \"convention\",\n      \"module\": \"code_problemes\",\n      \"obj\": \"\",\n      \"line\": 1,\n      \"column\": 0,\n      \"endLine\": null,\n      \"endColumn\": null,\n      \"path\": \"sandbox\\\\test_auto\\\\code_problemes.py\",\n      \"symbol\": \"missing-module-docstring\",\n      \"message\": \"Missing module docstring\",\n      \"message-id\": \"C0114\"\n    },\n    {\n      \"type\": \"convention\",\n      \"module\": \"code_problemes\",\n      \"obj\": \"calcul_moyenne\",\n      \"line\": 3,\n      \"column\": 0,\n      \"endLine\": 3,\n      \"endColumn\": 18,\n      \"path\": \"sandbox\\\\test_auto\\\\code_problemes.py\",\n      \"symbol\": \"missing-function-docstring\",\n      \"message\": \"Missing function or method docstring\",\n      \"message-id\": \"C0116\"\n    },\n    {\n      \"type\": \"convention\",\n      \"module\": \"code_problemes\",\n      \"obj\": \"afficher_message\",\n      \"line\": 10,\n      \"column\": 0,\n      \"endLine\": 10,\n      \"endColumn\": 20,\n      \"path\": \"sandbox\\\\test_auto\\\\code_problemes.py\",\n      \"symbol\": \"missing-function-docstring\",\n      \"message\": \"Missing function or method docstring\",\n      \"message-id\": \"C0116\"\n    }\n  ],\n  \"issues_count\": 3,\n  \"pylint_return_code\": 16,\n  \"success\": true\n}",
+            "file": "code_problemes.py",
+            "issues_count": 3,
+            "operation": "run_static_analysis"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "edef140f-01e6-48af-bf6f-826454889d8d",
+        "timestamp": "2026-01-29T20:44:53.049752",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Lecture du fichier : code_problemes.py",
+            "output_response": "Fichier lu avec succès. Taille : 381 caractères",
+            "file": "code_problemes.py",
+            "encoding": "utf-8",
+            "null_bytes_removed": 0,
+            "size_bytes": 384,
+            "size_chars": 381,
+            "operation": "read_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "7025b211-371f-410f-86d5-a92c50d66fae",
+        "timestamp": "2026-01-29T20:44:53.075478",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Calcul des métriques pour code_problemes.py",
+            "output_response": "{\n  \"file\": \"code_problemes.py\",\n  \"lines_of_code\": 13,\n  \"non_empty_lines\": 10,\n  \"function_count\": 2,\n  \"class_count\": 0,\n  \"import_count\": 0,\n  \"comment_lines\": 4,\n  \"ast_functions\": 2,\n  \"ast_methods\": 0,\n  \"ast_valid\": true\n}",
+            "file": "code_problemes.py",
+            "operation": "get_code_metrics"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "8ead67c7-94e2-4e30-893d-eb5153d4c4bc",
+        "timestamp": "2026-01-29T20:44:53.099932",
+        "agent": "Auditor",
+        "model": "tool",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Analyse du fichier code_problemes.py",
+            "output_response": "{\n  \"file\": \"code_problemes.py\",\n  \"has_issues\": true,\n  \"issues_count\": 3,\n  \"pylint_score\": 16,\n  \"success\": true,\n  \"metrics\": {\n    \"file\": \"code_problemes.py\",\n    \"lines_of_code\": 13,\n    \"non_empty_lines\": 10,\n    \"function_count\": 2,\n    \"class_count\": 0,\n    \"import_count\": 0,\n    \"comment_lines\": 4,\n    \"ast_functions\": 2,\n    \"ast_methods\": 0,\n    \"ast_valid\": true\n  }\n}",
+            "file": "code_problemes.py",
+            "issues_found": 3,
+            "operation": "audit_file"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "e0ce734d-ea89-4249-b2e4-f68276b18da1",
+        "timestamp": "2026-01-29T20:44:53.115113",
+        "agent": "MessageBus",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Message de Auditor à Fixer",
+            "output_response": "{\n  \"sender\": \"Auditor\",\n  \"receiver\": \"Fixer\",\n  \"type\": \"audit_report\",\n  \"content\": {\n    \"project\": \"C:\\\\Users\\\\DM\\\\Desktop\\\\Refactoring-Swarm-Equipe-Demogorgans\\\\sandbox\\\\test_auto\",\n    \"files_audited\": 1,\n    \"files_with_issues\": 1,\n    \"total_issues\": 3,\n    \"all_files_valid\": true,\n    \"detailed_results\": [\n      {\n        \"file\": \"code_problemes.py\",\n        \"has_issues\": true,\n        \"issues_count\": 3,\n        \"pylint_score\": 16,\n        \"success\": true,\n        \"metrics\": {\n          \"file\": \"code_problemes.py\",\n          \"lines_of_code\": 13,\n          \"non_empty_lines\": 10,\n          \"function_count\": 2,\n          \"class_count\": 0,\n          \"import_count\": 0,\n          \"comment_lines\": 4,\n          \"ast_functions\": 2,\n          \"ast_methods\": 0,\n          \"ast_valid\": true\n        }\n      }\n    ]\n  },\n  \"timestamp\": 1769715893.115114,\n  \"iteration\": 1\n}",
+            "message_type": "audit_report",
+            "iteration": 1
+        },
+        "status": "INFO"
+    },
+    {
+        "id": "fc0913d1-e360-4b87-89ad-abcd7a6a5534",
+        "timestamp": "2026-01-29T20:44:53.148418",
+        "agent": "Orchestrator",
+        "model": "system",
+        "action": "DEBUG",
+        "details": {
+            "input_prompt": "Erreur dans _run_initial_audit()",
+            "output_response": "name 'json' is not defined"
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "3d8e7379-5b7d-4790-9cf2-00ddc08cc92c",
+        "timestamp": "2026-01-30T20:26:12.881680",
+        "agent": "System",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "System startup with target: ./test_dataset",
+            "output_response": "System initialized successfully",
+            "target_directory": "./test_dataset",
+            "max_iterations": 10
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "a52b864b-9a8d-4045-9c9b-0f30120ec869",
+        "timestamp": "2026-01-30T20:26:13.581670",
+        "agent": "Auditor_Agent",
+        "model": "gemini-2.0-flash-exp",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "file_analyzed": "calculator.py",
+            "input_prompt": "You are a Python Code Auditor Agent specialized in static code analysis.\n\nYour role:\n1. Analyze Python code for bugs, code smells, and quality issues\n2. Generate a structured refactoring plan\n3. Prioritize critical issues (errors, bugs) over style issues\n\nGuidelines:\n- Be concise and specific\n- Focus on actionable issues\n- Reference exact line numbers when possible\n- Categorize issues by severity (CRITICAL, HIGH, MEDIUM, LOW)\n\nOutput format: JSON with this structure:\n{\n    \"overall_score\": <pylint_score>,\n    \"total_issues\": <number>,\n    \"critical_issues\": [\n        {\"line\": <number>, \"issue\": \"<description>\", \"fix\": \"<suggestion>\"}\n    ],\n    \"refactoring_plan\": {\n        \"priority_1\": [\"<fix_1>\", \"<fix_2>\"],\n        \"priority_2\": [\"<fix_3>\"]\n    }\n}\n\n\nAnalyze this Python file and create a refactoring plan.\n\nFile: calculator.py\nPylint Analysis:\n{\n  \"file\": \"calculator.py\",\n  \"score\": 0.0,\n  \"total_issues\": 0,\n  \"error\": \"[WinError 2] Le fichier sp\\u00e9cifi\\u00e9 est introuvable\",\n  \"analysis_success\": false\n}\n\nCode:\n```python\n# Messy calculator module with bugs and poor style\n\ndef add(x,y):\n    return x+y\n\ndef subtract(a,b):\n    result=a-b\n    return result\n\ndef multiply(num1,num2):\n    product=num1*num2\n    return product\n\ndef divide(x,y):\n    return x/y\n\nclass calculator:\n    def __init__(self):\n        self.history=[]\n    \n    def calculate(self,op,a,b):\n        if op=='add':\n            result=add(a,b)\n        elif op=='subtract':\n            result=subtract(a,b)\n        elif op=='multiply':\n            result=multiply(a,b)\n        elif op=='divide':\n            result=divide(a,b)\n        else:\n            result=None\n        self.history.append(result)\n        return result\n    \n    def get_history(self):\n        return self.history\n\ndef main():\n    calc=calculator()\n    print(calc.calculate('add',5,3))\n    print(calc.calculate('divide',10,0))\n\nif __name__=='__main__':\n    main()\n```\n\nProvide your analysis in JSON format.",
+            "output_response": "ERROR: LLM generation failed - 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+            "pylint_score": 0.0,
+            "total_issues": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "32b836f9-7a57-42bc-a775-1034676f833a",
+        "timestamp": "2026-01-30T20:26:13.710347",
+        "agent": "Auditor_Agent",
+        "model": "gemini-2.0-flash-exp",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "file_analyzed": "data_processor.py",
+            "input_prompt": "You are a Python Code Auditor Agent specialized in static code analysis.\n\nYour role:\n1. Analyze Python code for bugs, code smells, and quality issues\n2. Generate a structured refactoring plan\n3. Prioritize critical issues (errors, bugs) over style issues\n\nGuidelines:\n- Be concise and specific\n- Focus on actionable issues\n- Reference exact line numbers when possible\n- Categorize issues by severity (CRITICAL, HIGH, MEDIUM, LOW)\n\nOutput format: JSON with this structure:\n{\n    \"overall_score\": <pylint_score>,\n    \"total_issues\": <number>,\n    \"critical_issues\": [\n        {\"line\": <number>, \"issue\": \"<description>\", \"fix\": \"<suggestion>\"}\n    ],\n    \"refactoring_plan\": {\n        \"priority_1\": [\"<fix_1>\", \"<fix_2>\"],\n        \"priority_2\": [\"<fix_3>\"]\n    }\n}\n\n\nAnalyze this Python file and create a refactoring plan.\n\nFile: data_processor.py\nPylint Analysis:\n{\n  \"file\": \"data_processor.py\",\n  \"score\": 0.0,\n  \"total_issues\": 0,\n  \"error\": \"[WinError 2] Le fichier sp\\u00e9cifi\\u00e9 est introuvable\",\n  \"analysis_success\": false\n}\n\nCode:\n```python\nimport sys\n\ndef process_data(data):\n    results=[]\n    for item in data:\n        if item>0:\n            results.append(item*2)\n    return results\n\nclass DataProcessor:\n    def __init__(self,name):\n        self.name=name\n        self.data=[]\n    \n    def add_data(self,value):\n        self.data.append(value)\n    \n    def process(self):\n        return process_data(self.data)\n    \n    def print_results(self):\n        for i in self.process():\n            print(i)\n\ndef validate_input(x):\n    if type(x)==int:\n        return True\n    return False\n```\n\nProvide your analysis in JSON format.",
+            "output_response": "ERROR: LLM generation failed - 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+            "pylint_score": 0.0,
+            "total_issues": 0
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "419a6c1d-90d0-4eae-9c55-0143ec741b4e",
+        "timestamp": "2026-01-30T20:26:13.846692",
+        "agent": "Fixer_Agent",
+        "model": "gemini-2.0-flash-exp",
+        "action": "FIX",
+        "details": {
+            "file_fixed": "calculator.py",
+            "input_prompt": "You are a Python Code Fixer Agent specialized in code refactoring.\n\nYour role:\n1. Fix bugs and issues based on the refactoring plan\n2. Maintain code functionality while improving quality\n3. Follow PEP 8 style guidelines\n4. Add docstrings where missing\n\nGuidelines:\n- Make minimal, focused changes\n- Do NOT remove existing functionality\n- Add proper error handling\n- Ensure code is runnable\n- Add type hints where appropriate\n\nOutput: Provide ONLY the complete fixed Python code, no explanations.\n\nFix the issues in this Python file according to the plan.\n\nFile: calculator.py\n\nRefactoring Plan:\n{\n  \"overall_score\": 0.0,\n  \"total_issues\": 0,\n  \"critical_issues\": [],\n  \"refactoring_plan\": {\n    \"priority_1\": [\n      \"Fix pylint errors\",\n      \"Add docstrings\"\n    ],\n    \"priority_2\": [\n      \"Improve code style\"\n    ]\n  }\n}\n\nCurrent Code:\n```python\n# Messy calculator module with bugs and poor style\n\ndef add(x,y):\n    return x+y\n\ndef subtract(a,b):\n    result=a-b\n    return result\n\ndef multiply(num1,num2):\n    product=num1*num2\n    return product\n\ndef divide(x,y):\n    return x/y\n\nclass calculator:\n    def __init__(self):\n        self.history=[]\n    \n    def calculate(self,op,a,b):\n        if op=='add':\n            result=add(a,b)\n        elif op=='subtract':\n            result=subtract(a,b)\n        elif op=='multiply':\n            result=multiply(a,b)\n        elif op=='divide':\n            result=divide(a,b)\n        else:\n            result=None\n        self.history.append(result)\n        return result\n    \n    def get_history(self):\n        return self.history\n\ndef main():\n    calc=calculator()\n    print(calc.calculate('add',5,3))\n    print(calc.calculate('divide',10,0))\n\nif __name__=='__main__':\n    main()\n```\n\nPrevious Errors (if any):\nNone\n\nProvide the complete fixed code:",
+            "output_response": "ERROR: LLM generation failed - 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+            "had_previous_errors": false,
+            "code_length": 221
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "58cefa1f-a7ac-453c-bdb7-3b89828666c2",
+        "timestamp": "2026-01-30T20:26:14.067757",
+        "agent": "Tester_Agent",
+        "model": "gemini-2.0-flash-exp",
+        "action": "CODE_GEN",
+        "details": {
+            "file_tested": "calculator.py",
+            "input_prompt": "You are a Python Test Generator Agent.\n\nYour role:\n1. Generate unit tests for Python code\n2. Cover main functionality and edge cases\n3. Use pytest framework\n\nGuidelines:\n- Create clear, maintainable tests\n- Test both success and failure cases\n- Use descriptive test names\n- Keep tests simple and focused\n\nOutput: Provide ONLY the complete test file code using pytest.\n\nGenerate unit tests for this Python code.\n\nFile: calculator.py\n\nCode:\n```python\nERROR: LLM generation failed - 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.\n```\n\nGenerate a complete test file using pytest:",
+            "output_response": "ERROR: LLM generation failed - 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+            "test_file_created": "test_calculator.py"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "070885fa-0782-4cd3-9e2e-adfb4507fbc0",
+        "timestamp": "2026-01-30T20:26:14.118644",
+        "agent": "Tester_Agent",
+        "model": "gemini-2.0-flash-exp",
+        "action": "DEBUG",
+        "details": {
+            "file_tested": "calculator.py",
+            "input_prompt": "Test validation for calculator.py",
+            "output_response": "{\"test_passed\": true, \"total_tests\": 0, \"failed_tests\": 0, \"root_causes\": [], \"recommended_fixes\": [], \"retry_needed\": false}",
+            "tests_passed": false,
+            "total_tests": 0,
+            "failed_tests": 0
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "139c65e6-e283-490a-9179-8aa5534b4b86",
+        "timestamp": "2026-01-30T20:26:14.268142",
+        "agent": "Fixer_Agent",
+        "model": "gemini-2.0-flash-exp",
+        "action": "FIX",
+        "details": {
+            "file_fixed": "data_processor.py",
+            "input_prompt": "You are a Python Code Fixer Agent specialized in code refactoring.\n\nYour role:\n1. Fix bugs and issues based on the refactoring plan\n2. Maintain code functionality while improving quality\n3. Follow PEP 8 style guidelines\n4. Add docstrings where missing\n\nGuidelines:\n- Make minimal, focused changes\n- Do NOT remove existing functionality\n- Add proper error handling\n- Ensure code is runnable\n- Add type hints where appropriate\n\nOutput: Provide ONLY the complete fixed Python code, no explanations.\n\nFix the issues in this Python file according to the plan.\n\nFile: data_processor.py\n\nRefactoring Plan:\n{\n  \"overall_score\": 0.0,\n  \"total_issues\": 0,\n  \"critical_issues\": [],\n  \"refactoring_plan\": {\n    \"priority_1\": [\n      \"Fix pylint errors\",\n      \"Add docstrings\"\n    ],\n    \"priority_2\": [\n      \"Improve code style\"\n    ]\n  }\n}\n\nCurrent Code:\n```python\nimport sys\n\ndef process_data(data):\n    results=[]\n    for item in data:\n        if item>0:\n            results.append(item*2)\n    return results\n\nclass DataProcessor:\n    def __init__(self,name):\n        self.name=name\n        self.data=[]\n    \n    def add_data(self,value):\n        self.data.append(value)\n    \n    def process(self):\n        return process_data(self.data)\n    \n    def print_results(self):\n        for i in self.process():\n            print(i)\n\ndef validate_input(x):\n    if type(x)==int:\n        return True\n    return False\n```\n\nPrevious Errors (if any):\nNone\n\nProvide the complete fixed code:",
+            "output_response": "ERROR: LLM generation failed - 404 models/gemini-2.0-flash-exp is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.",
+            "had_previous_errors": false,
+            "code_length": 221
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "1ff65bbb-505d-434e-9947-77be35b98fd2",
+        "timestamp": "2026-01-30T20:26:14.348619",
+        "agent": "Tester_Agent",
+        "model": "gemini-2.0-flash-exp",
+        "action": "DEBUG",
+        "details": {
+            "file_tested": "data_processor.py",
+            "input_prompt": "Test validation for data_processor.py",
+            "output_response": "{\"test_passed\": true, \"total_tests\": 0, \"failed_tests\": 0, \"root_causes\": [], \"recommended_fixes\": [], \"retry_needed\": false}",
+            "tests_passed": false,
+            "total_tests": 0,
+            "failed_tests": 0
+        },
+        "status": "FAILURE"
+    },
+    {
+        "id": "5f82f5b2-f6e5-45ec-a297-a5c4c7ee0a9b",
+        "timestamp": "2026-01-30T20:26:14.499719",
+        "agent": "System",
+        "model": "system",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "System completion",
+            "output_response": "Processed 2 files",
+            "initial_score": 0.0,
+            "final_score": 0.0,
+            "success": true
+        },
+        "status": "SUCCESS"
     }
 ]
