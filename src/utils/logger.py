@@ -87,3 +87,38 @@ def log_experiment(agent_name: str, model_used: str, action: ActionType, details
     # Écriture
     with open(LOG_FILE, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
+
+def get_session_summary():
+    """
+    Fournit un résumé simple de la session de refactoring.
+    Utilisé par l'orchestrateur pour conclure l'expérience.
+    """
+    if not os.path.exists(LOG_FILE):
+        return {
+            "total_actions": 0,
+            "status": "NO_LOGS"
+        }
+
+    try:
+        with open(LOG_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except json.JSONDecodeError:
+        return {
+            "total_actions": 0,
+            "status": "ERROR",
+            "message": "Corrupted log file"
+        }
+
+    summary = {
+        "total_actions": len(data),
+        "actions_by_type": {},
+        "status": "COMPLETED"
+    }
+
+    for entry in data:
+        action = entry.get("action", "UNKNOWN")
+        summary["actions_by_type"][action] = (
+            summary["actions_by_type"].get(action, 0) + 1
+        )
+
+    return summary
