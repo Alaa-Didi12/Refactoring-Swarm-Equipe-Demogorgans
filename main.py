@@ -22,8 +22,8 @@ from src.utils.logger import log_experiment, get_session_summary, ActionType
 def validate_environment():
     """Validate that the environment is properly configured."""
     api_key = os.getenv("GOOGLE_API_KEY")
-    
-    if not api_key or api_key == "your_api_key_here":
+
+    if not api_key:
         print("❌ ERROR: GOOGLE_API_KEY not configured")
         print("   Please create a .env file with your Google API key")
         print("   Get a free key at: https://aistudio.google.com/app/apikey")
