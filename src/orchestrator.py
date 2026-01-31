@@ -183,7 +183,7 @@ class RefactoringOrchestrator:
             
             # Tests failed, check if we should retry
             if not test_result.get("retry_needed"):
-                print(f"      ⚠️  Tests failed but retry not recommended")
+               
                 break
             
             # Prepare for retry
@@ -191,7 +191,7 @@ class RefactoringOrchestrator:
             previous_errors = self._format_errors(test_result)
         
         # Max iterations reached
-        print(f"      ⏱️  Max iterations reached")
+        
         
         # Get final score anyway
         from src.tools.code_analyzer import CodeAnalyzer
